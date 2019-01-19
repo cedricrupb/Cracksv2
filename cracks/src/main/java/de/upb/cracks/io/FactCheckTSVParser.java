@@ -53,8 +53,11 @@ public class FactCheckTSVParser {
                 query = (String) objects[1];
             }
 
-            if(objects[2] instanceof Double){
-                label = (Double) objects[2];
+
+            try {
+                label = Double.parseDouble((String) objects[2]);
+            } catch(NumberFormatException e){
+
             }
 
             entities.add(new FactCheckTrainEntity(id, query, label));

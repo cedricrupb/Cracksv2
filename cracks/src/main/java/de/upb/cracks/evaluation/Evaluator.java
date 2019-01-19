@@ -5,6 +5,7 @@ import com.google.common.collect.Lists;
 import de.upb.cracks.io.FactCheckQueryEntity;
 import de.upb.cracks.io.FactCheckTSVParser;
 import de.upb.cracks.io.FactCheckTrainEntity;
+import de.upb.cracks.model.DefaulFactChecker;
 import de.upb.cracks.model.IFactCheckModel;
 import de.upb.cracks.model.IFactChecker;
 
@@ -51,7 +52,7 @@ public class Evaluator {
     private List<Fold> crossfold() throws FileNotFoundException {
         initTrainData(path);
 
-        Iterable<List<FactCheckTrainEntity>> subSets = Iterables.partition(trainData, k);
+        Iterable<List<FactCheckTrainEntity>> subSets = Iterables.partition(trainData, (trainData.size()/k + 1));
         List<List<FactCheckTrainEntity>> subSetList = Lists.newArrayList(subSets);
 
         List<Fold> out = new ArrayList<>();
@@ -83,16 +84,21 @@ public class Evaluator {
                 Result lI = list.get(i);
                 Result lJ = list.get(j);
 
-                if((lI.truth > lJ.truth && lI.value > lJ.value) || (lI.truth < lJ.truth) && (lI.value < lJ.value)){
-                    goodRank++;
-                }
+                if(lI.truth != lJ.truth) {
+                    if ((lI.truth > lJ.truth && lI.value > lJ.value) || (lI.truth < lJ.truth) && (lI.value < lJ.value)) {
+                        goodRank++;
+                    }
 
-                if(lI.truth != lJ.truth)
                     ranks++;
+                }
             }
         }
 
-        return (double)ranks / (double)goodRank;
+        if(ranks == 0){
+            return 0;
+        }
+
+        return (double)goodRank / (double)ranks;
     }
 
 
@@ -111,7 +117,6 @@ public class Evaluator {
                 List<Result> results = new ArrayList<>();
 
                 for(FactCheckTrainEntity q  : fold.getQuery()){
-
                     double val = model.eval(q);
                     results.add(new Result(val, q.getLabel()));
                 }
@@ -120,9 +125,9 @@ public class Evaluator {
 
                 System.out.println("AUC: "+aucs.get(aucs.size() - 1));
 
-                return null;
-
             }
+
+            return null;
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -139,6 +144,13 @@ public class Evaluator {
             this.value = value;
             this.truth = truth;
         }
+
+    }
+
+    public static void main(String[] args){
+
+        Evaluator evaluator = new Evaluator();
+        evaluator.evaluate(new DefaulFactChecker());
 
     }
 
