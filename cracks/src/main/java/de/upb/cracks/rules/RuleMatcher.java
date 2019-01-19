@@ -34,25 +34,13 @@ public class RuleMatcher {
             }
         }
 
+        if(bestMatch == null){
+            System.out.println("Unknown rule for: "+text);
+        }
+
 
         return Optional.ofNullable(bestMatch);
     }
 
-
-
-    public static void main(String[] args){
-
-        String rule = "[FILM] stars [PERSON]#001";
-
-        RuleMatcher matcher = new RuleParser().compile(rule);
-
-        String test = "The Right Stuff (film) stars Scott Glenn";
-
-        System.out.println(
-                matcher.match(test)
-        );
-
-
-    }
 
 }
