@@ -1,57 +1,82 @@
 package de.upb.cracks.rules;
 
-
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
 import java.util.ArrayList;
-
+import java.util.List;
+import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class RuleParser {
 
-    public ArrayList<Rule> readRules(String source) {
+    private Rule parseLine(String line){
 
-        if (source.isEmpty()) {
-            System.out.println("Source is emphty");
+        String[] split = line.split("#");
+
+        if(split.length < 2){
+            System.out.println("Wrong rule: "+line);
             return null;
         }
 
-        ArrayList<Rule> rules = new ArrayList<>();
-        File[] files = new File(source).listFiles();
+        String id = split[1];
+        String reg = split[0];
 
-        for (File file : files) {
-            if (file.isFile()) {
-                String ruleString = readRule(file);
-                Rule rule = createRule(ruleString);
-                rules.add(rule);
+        List<String> types = new ArrayList<>();
+
+        String regex = "";
+        String typeBuffer = "";
+
+        int state = 0;
+        for(int i = 0; i < reg.length(); i++){
+            char c = reg.charAt(i);
+
+            switch (state){
+
+                case 0:
+                    if(c == '['){
+                        regex += "(.*)";
+                        state = 1;
+                    }else if(c == '.'){
+                        regex += "\\.";
+                    }else{
+                        regex += c;
+                    }
+                    break;
+                case 1:
+                    if(c == ']'){
+                        types.add(typeBuffer);
+                        typeBuffer = "";
+                        state = 0;
+                    }else{
+                        typeBuffer += c;
+                    }
+                    break;
+
             }
+
         }
-        return rules;
-    }
 
-    private String readRule(File file) {
-        byte[] encoded = null;
-        try {
-            encoded = Files.readAllBytes(file.toPath());
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+        if(types.size() != 2){
+            System.out.println("Detect more than two types: "+line);
+            return null;
         }
-        return new String(encoded);
+
+        return new Rule(
+                id, Pattern.compile(regex), types.get(0), types.get(1)
+        );
     }
 
-    public Rule createRule(String ruleString) {
+    public RuleMatcher compile(String serial){
+        List<Rule> rules = new ArrayList<>();
 
-        String id = ruleString.substring(ruleString.indexOf("<")+1, ruleString.indexOf(">"));
-        String headline = ruleString.substring(ruleString.indexOf("(")+1, ruleString.indexOf(")"));
-        System.out.println(id);
-        System.out.println(headline);
-        String rule = ruleString.substring(ruleString.indexOf(">")+1, ruleString.indexOf("("));
+        Scanner scanner = new Scanner(serial);
 
-        String regex = rule.replaceAll("\\[[a-zZA-Z]+\\]", "(.*)");
-        System.out.println(regex);
-        System.out.println("---------");
-        return new Rule(Integer.parseInt(id), headline, regex);
+        while(scanner.hasNextLine()){
+            Rule r = this.parseLine(scanner.nextLine());
+            if(r != null)
+                rules.add(r);
+        }
+
+        return new RuleMatcher(rules);
     }
+
 
 }
