@@ -6,6 +6,7 @@ import de.upb.cracks.io.FactCheckQueryEntity;
 import de.upb.cracks.io.FactCheckTSVParser;
 import de.upb.cracks.io.FactCheckTrainEntity;
 import de.upb.cracks.model.DefaulFactChecker;
+import de.upb.cracks.model.FactChecker;
 import de.upb.cracks.model.IFactCheckModel;
 import de.upb.cracks.model.IFactChecker;
 
@@ -150,7 +151,7 @@ public class Evaluator {
     public static void main(String[] args){
 
         Evaluator evaluator = new Evaluator();
-        evaluator.evaluate(new DefaulFactChecker());
+        evaluator.evaluate(new FactChecker());
 
     }
 

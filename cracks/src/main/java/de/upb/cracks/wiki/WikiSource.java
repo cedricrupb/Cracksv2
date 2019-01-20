@@ -9,6 +9,7 @@ import com.google.gson.JsonParser;
 import org.json.simple.JSONObject;
 
 
+import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -35,16 +36,21 @@ public class WikiSource {
         }
     }
 
-
+    private String unAccent(String s) {
+        String temp = Normalizer.normalize(s, Normalizer.Form.NFD);
+        Pattern pattern = Pattern.compile("\\p{InCombiningDiacriticalMarks}+");
+        return pattern.matcher(temp).replaceAll("");
+    }
  
     //==
     //=== Super Headline
     //====
-    public List<String> queryByName(String title) throws Exception {
+    public List<WikiSection> queryByName(String title) throws Exception {
         Pattern extract = Pattern.compile("\"extract\":\"(.*)\"");
         Matcher matcher;
 
         title = title.replaceAll(" ", "_");
+        title = unAccent(title);
 
         String text = wiki.getActionResultText("query",
                 "&format=json&prop=extracts&utf8=1&explaintext=1&&exsectionformat=wiki&redirects=1&titles=" + title,
@@ -101,11 +107,11 @@ public class WikiSource {
         }
 
 
-        List<String> txts = new ArrayList<>();
+        List<WikiSection> txts = new ArrayList<>();
 
         for(WikiSection section: sections){
             if(!ignoreSet.contains(section.getTitle()))
-                txts.add(section.getText());
+                txts.add(section);
         }
 
 

@@ -36,6 +36,22 @@ public class FactCheckTSVParser {
         return processor.entities;
     }
 
+    public List<FactCheckQueryEntity> parseTest(){
+
+        TsvParserSettings settings = new TsvParserSettings();
+
+        settings.setHeaderExtractionEnabled(true);
+
+        TSVTestObjectProcessor processor = new TSVTestObjectProcessor();
+        settings.setProcessor(processor);
+
+
+        TsvParser parser = new TsvParser(settings);
+        parser.parse(stream, Charset.forName("ISO-8859-1"));
+
+        return processor.entities;
+    }
+
 
     private class TSVObjectProcessor extends ObjectRowProcessor{
 
@@ -61,6 +77,28 @@ public class FactCheckTSVParser {
             }
 
             entities.add(new FactCheckTrainEntity(id, query, label));
+
+        }
+    }
+
+    private class TSVTestObjectProcessor extends ObjectRowProcessor{
+
+        List<FactCheckQueryEntity> entities = new ArrayList<>();
+
+        @Override
+        public void rowProcessed(Object[] objects, ParsingContext parsingContext) {
+            long id = -1;
+            String query = "";
+            double label = -1;
+
+            id = Long.parseLong((String) objects[0]);
+
+            if(objects[1] instanceof String){
+                query = (String) objects[1];
+            }
+
+
+            entities.add(new FactCheckQueryEntity(id, query));
 
         }
     }

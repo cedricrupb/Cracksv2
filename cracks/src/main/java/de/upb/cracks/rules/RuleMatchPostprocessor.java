@@ -16,6 +16,8 @@ public class RuleMatchPostprocessor {
 
         }
 
+        name = name.trim();
+
         return name;
     }
 

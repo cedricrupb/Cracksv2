@@ -1,7 +1,10 @@
 package de.upb.cracks.rules;
 
-import java.util.List;
-import java.util.Optional;
+import edu.stanford.nlp.simple.Sentence;
+import edu.stanford.nlp.simple.Token;
+import edu.stanford.nlp.util.PropertiesUtils;
+
+import java.util.*;
 import java.util.regex.Matcher;
 
 public class RuleMatcher {
@@ -31,6 +34,7 @@ public class RuleMatcher {
                 String secondGroup = matcher.group(2);
 
                 bestMatch = new RuleMatch(rule, firstGroup, secondGroup, text);
+
             }
         }
 

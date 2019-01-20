@@ -1,0 +1,32 @@
+[Movie] stars [Person*].#movie_starring
+[Movie] stars [Person*]#movie_starring
+Stars [Person*] has been clerked [Movie].#movie_starring
+[Person*] birth place is [Place].#birth_place
+[Place] is [Person*] nascence place.#birth_place
+[Place] is [Person*] birth place.#birth_place
+[Person*] death place is [Place].#death_place
+[Place] is [Person*] last place.#death_place
+[Place] is [Person*] death place.#death_place
+[Person*] team is [Team]#team
+[Team] is [Person*] team.#team
+[Team] is [Person*] squad.#team
+[Person*] office is [Place].#office
+[Place] is [Person*] office.#office
+[Place] is [Person*] role.#office
+[Person*] award is [Award].#award
+[Award] is [Person*] honour.#award
+[Award] is [Person*] award.#award
+[Organization*] award is [Award].#award
+[Company*] foundation place is [Place].#foundation
+[Place] is [Company*] innovation place.#foundation
+[Place] is [Company*] foundation place.#foundation
+[Book*] author is [Person].#author
+[Person] is [Book*] author.#author
+[Person] is [Book*] generator.#author
+[Person*] spouse is [Person*].#spouse
+[Person*] is [Person*] better half.#spouse
+[Person*] is [Person*] spouse.#spouse
+[Company*] is [Company] subordinate.#daughter_company
+[Company] subsidiary is [Company*].#daughter_company
+[Company*] is [Company] subsidiary.#daughter_company
+[Company] subordinate is [Company*].#daughter_company

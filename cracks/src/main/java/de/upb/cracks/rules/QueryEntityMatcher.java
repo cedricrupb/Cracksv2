@@ -51,8 +51,7 @@ public class QueryEntityMatcher {
 
         QueryEntity secondE = new QueryEntity(name, type, searchFor);
 
-
-        return null;
+        return Optional.of(new FactQuery(match.getRule().getIntention(),  firstE, secondE));
     }
 
     private class FactQuery implements IFactQuery{
@@ -61,19 +60,25 @@ public class QueryEntityMatcher {
         QueryEntity first;
         QueryEntity second;
 
+        public FactQuery(String intention, QueryEntity first, QueryEntity second) {
+            this.intention = intention;
+            this.first = first;
+            this.second = second;
+        }
+
         @Override
         public String getIntention() {
-            return null;
+            return intention;
         }
 
         @Override
         public QueryEntity getFirstEntity() {
-            return null;
+            return first;
         }
 
         @Override
         public QueryEntity getSecondEntity() {
-            return null;
+            return second;
         }
     }
 
