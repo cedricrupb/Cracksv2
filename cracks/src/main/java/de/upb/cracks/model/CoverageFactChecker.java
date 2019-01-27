@@ -39,7 +39,7 @@ public class CoverageFactChecker implements  IFactChecker {
 
                 }
 
-                return 0;
+                return Math.random();
             }
         };
     }

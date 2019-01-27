@@ -1,12 +1,22 @@
 package de.upb.cracks.corpus;
 
+import com.google.gson.Gson;
 import de.upb.cracks.corpus.preprocess.SentenceSelector;
+import de.upb.cracks.model.MaxOccurrenceSelector;
 import de.upb.cracks.rules.QueryEntity;
 import edu.stanford.nlp.simple.Sentence;
 import edu.stanford.nlp.simple.Token;
 import edu.stanford.nlp.util.Pair;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 
 public class WikiSentence {
@@ -62,5 +72,53 @@ public class WikiSentence {
     }
 
 
+    public boolean store(String path){
+        Path p = Paths.get(path);
+
+        Map<String, String> map = new HashMap<>();
+        map.put("entity", search.getText());
+        map.put("entityType", search.getType());
+        map.put("sentence", sentence.text());
+
+        Gson gson = new Gson();
+        try {
+            if(!Files.exists(p.getParent())){
+                Files.createDirectory(p.getParent());
+            }
+
+            BufferedWriter writer = Files.newBufferedWriter(p);
+            gson.toJson(map, writer);
+            writer.close();
+        } catch (IOException e) {
+            return false;
+        }
+
+        return true;
+    }
+
+    public static WikiSentence load(String path){
+        Path p = Paths.get(path);
+
+        Gson gson = new Gson();
+        try {
+            BufferedReader reader = Files.newBufferedReader(p);
+            Map<String, String> map = gson.fromJson(
+                    reader,
+                    Map.class
+            );
+            reader.close();
+
+            QueryEntity search = new QueryEntity(
+                    map.get("entity"), map.get("entityType"), false
+            );
+
+            return new WikiSentence(null, search, new Sentence(
+                    map.get("sentence")
+            ));
+
+        } catch (IOException e) {
+        }
+        return null;
+    }
 
 }

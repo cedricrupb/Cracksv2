@@ -5,10 +5,7 @@ import com.google.common.collect.Lists;
 import de.upb.cracks.io.FactCheckQueryEntity;
 import de.upb.cracks.io.FactCheckTSVParser;
 import de.upb.cracks.io.FactCheckTrainEntity;
-import de.upb.cracks.model.CoverageFactChecker;
-import de.upb.cracks.model.DefaulFactChecker;
-import de.upb.cracks.model.IFactCheckModel;
-import de.upb.cracks.model.IFactChecker;
+import de.upb.cracks.model.*;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -151,7 +148,7 @@ public class Evaluator {
     public static void main(String[] args){
 
         Evaluator evaluator = new Evaluator();
-        evaluator.evaluate(new CoverageFactChecker());
+        evaluator.evaluate(new NaiveFactChecker());
 
     }
 

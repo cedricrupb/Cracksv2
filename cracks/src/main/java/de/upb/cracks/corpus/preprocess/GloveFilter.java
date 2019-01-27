@@ -93,7 +93,7 @@ public class GloveFilter {
         return cache.get(lemma1, lemma2);
     }
 
-    private double getScore(Sentence sentence){
+    public double getScore(Sentence sentence){
 
         boolean hasUnseen = false;
         boolean isInteresting = false;
