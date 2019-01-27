@@ -1,4 +1,4 @@
-package de.upb.cracks.wiki;
+package de.upb.cracks.corpus.wiki;
 
 public class WikiSection {
 

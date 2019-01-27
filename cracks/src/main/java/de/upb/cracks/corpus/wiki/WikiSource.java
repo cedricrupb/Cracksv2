@@ -1,12 +1,10 @@
-package de.upb.cracks.wiki;
+package de.upb.cracks.corpus.wiki;
 
 import com.bitplan.mediawiki.japi.Mediawiki;
 import com.google.common.collect.ImmutableSet;
-import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import org.json.simple.JSONObject;
 
 
 import java.text.Normalizer;
