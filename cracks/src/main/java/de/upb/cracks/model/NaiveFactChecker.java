@@ -111,9 +111,37 @@ public class NaiveFactChecker implements IFactChecker {
     public IFactCheckModel train(List<FactCheckTrainEntity> trainEntities) {
         initSelector(trainEntities);
 
-        for(FactCheckTrainEntity e: trainEntities)
-            this.getSentence(e);
+        Map<String, NaiveBayes> map = new HashMap<>();
 
-        return new DefaulFactChecker().train(trainEntities);
+        for(FactCheckTrainEntity trainEntity : trainEntities){
+
+            Optional<IFactQuery> queryOptional = FactUtil.matcher().match(trainEntity.getQuery());
+
+            if(queryOptional.isPresent()) {
+                IFactQuery query = queryOptional.get();
+
+                if(!map.containsKey(query.getIntention())){
+                    map.put(query.getIntention(), new NaiveBayes());
+                }
+
+                NaiveBayes bayes = map.get(query.getIntention());
+
+                WikiSentence sentence = getSentence(trainEntity);
+
+                if(sentence == null)
+                    continue;
+
+                bayes.learn(
+                        FeatureExtractor.extract(
+                                sentence.window(7).getSentence()),
+                        trainEntity.getLabel() > 0
+                );
+
+            }
+
+        }
+
+
+        return new NaiveFactCheckModel(map);
     }
 }
