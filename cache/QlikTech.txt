@@ -1,0 +1,28 @@
+== Abstract == 
+Qlik is a software company founded in 1993 in Lund, Sweden and now based in Radnor, Pennsylvania, United States whose main products are QlikView and Qlik Sense, both software for business intelligence & data visualization. Similar software dedicated to business users would include Crystal Reports by SAP, Tableau, or Sisense. For the more developer orientated audience, the library Shiny for R also allows to quickly build interactive web apps.
+
+
+== History ==
+
+The company Qlik was previously known as QlikTech. The latter was founded in Lund, Sweden in 1993 as a software company in business intelligence (BI). Its PC-based desktop tool was called QuikView. "Quik" stood for "Quality, Understanding, Interaction, Knowledge." Initially the software was sold only in Sweden.In 1993, Swedish VC Industrifonden joined the company as one of the first institutional investors. Måns Hultman became CEO in 2000 and Lars Björk became CFO.  Lars Björk became the CEO of Qlik 2007 and served the company until October 2017. The company focused on the area of  Business Intelligence (BI),  growing from 35 employees in 1999 to 70 in 2003. A syndicate of existing investors together with venture capital firms Accel Partners and Jerusalem Venture Partners (JVP) raised $12.5 million in capitalAlex Ott of Accel and Erel Margalit of JVP devised a growth strategy that resulted in  a 35% annual growth rate and $13 million in revenue by 2004.In 2005, the single-user desktop tool was replaced with a server-based web tool. Qlik established partnerships with Intel and HP, and incorporated charts and colors in their UI. Qlik customers include DB Schenker, Dendrite, Ericsson, and the Swedish Post.
+In 2007, Lars Björk became Qlik’s CEO.  The company claims a user base of 40,000 customers in 100 countries. The company held an initial public offering in July 2010.
+As of April 2011, the company had a market capitalization over $2 billion.In 2013, the company opened an office in Western Australia.In August 2015, the company expanded its R&D operations by opening an office in Ottawa, Ontario.In June 2016, Qlik announced it had agreed to sell itself to private equity firm Thoma Bravo LLC for about $3 billion.In June 2018, C40 Cities, a network of global cities partnered with Qlik to create actionable data products.As of July 2018, Qlik is used by the British police to "predict crime."
+
+
+== Products ==
+The two main products QlikView and QlikSense serve different purposes running on the same engine. In QlikView, the user is pursuing her day-to-day tasks, analysing data with a slightly configurable dashboard, most of the data is somehow "pre-canned". On the other hand, QlikSense allows associating different data sources and fully configuring the visualisations, allowing to follow an individual discovery path through the data. The company's official definition is
+
+QlikView is for guided analytics; Qlik Sense is for self-service visualizations.
+
+
+== See also ==
+Business discovery
+Data visualization
+
+
+== References ==
+
+
+== External links ==
+Official website 
+Qliktech CEO Lars Björk on surfing the deluge of data

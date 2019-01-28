@@ -1,0 +1,32 @@
+== Abstract == 
+Critical Path is a provider of messaging services, working in partnerships with mobile operators, telecommunications companies, ISPs, and enterprises. It was acquired on December 4, 2013 by Openwave Messaging and is now headed by Openwave Messaging President and CEO, Joe Campbell. On March 2, 2016, it was announced that Synchronoss Technologies agreed to acquire Openwave Messaging.
+
+
+== History ==
+Critical Path, Inc. was founded in 1997 by David C. Hayden and Wayne de Geere III as a provider of outsourced email service to ISPs. In 1998 they hired a new CEO, Douglas Hickey and acquired Usenet provider Supernews. The company went public on March 29, 1999. The IPO was covered favorably by the trade press at the time. In early 2001, nearly two years after their IPO, a series of lawsuits against Critical Path were filed over hiring practices, accounting irregularities, and securities fraud, culminating in a management shakeup and SEC action against the company's President, David Thatcher, and other executives. Thatcher and 2 others plead guilty and were sentenced to jail terms from 3 months to one year. In 2005 their stock was delisted by Nasdaq.In 2007 the company went private and in 2008 sold Supernews to Giganews.In October 2010, Critical Path and Mirapoint, a secure enterprise messaging company announced their decision to merge.
+
+
+== Products and solutions ==
+Critical Path's Memova product line provides consumer messaging solutions (homogeneous mixtures composed of only one phase) for mobile operators, broadband and fixed-line service providers. These solutions include:
+
+Memova Mobile – consumer mobile email and multimedia content solutions for mobile operators.
+Memova Messaging – a platform for service providers that delivers email and a range of messaging services.
+Memova Anti-Abuse – an anti-spam, anti-virus solution for service providers.In addition, the company provides a number of Identity Management (IDM) solutions:
+
+Directory Server - an X500/LDAP-compliant hierarchical data store.
+Meta-Directory Server - a system that connects to a number of disparate data sources and flows data between them.
+Password Manager - using Meta-Directory Server to synchronize passwords.
+
+
+== See also ==
+Internet messaging platform
+List of antivirus software
+Integration of anti-spam techniques into MTAs
+
+
+== References ==
+
+
+== External links ==
+Critical Path, Inc. web site.
+Openwave Messaging, Inc. web site.

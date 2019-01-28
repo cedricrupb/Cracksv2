@@ -1,0 +1,32 @@
+== Abstract == 
+KickApps is a hosted platform for creating social networks and adding social software features, video players and widgets to websites. More than 100,000 sites use KickApps, including major media companies (e.g. NBC Universal, The BBC, H&R Block, and Scripps Networks) and a wide variety of niche websites.The KickApps company was acquired in January 2011 by KIT digital.  
+Then, in December 2012, the company was acquired again by Perfect Sense Digital.
+
+
+== Features ==
+KickApps is a hosted platform (SaaS) that provides a range of social media applications to website developers and publishers that accelerate deployment of more sophisticated and costly applications such as social networking, user-generated content, media management and sharing, social marketing solutions, employee social communication, profiles, premium video players, webcam applications and widgets.
+A SaaS platform allows websites to deploy a wide range of user experiences in a variety of ways: REST and SOAP APIs, feeds, programmable widgets and video players, customizable templates and single-sign services.
+
+Members select a username and password (or use their existing site ID) to join your social network
+Members can upload videos, photos, and audio
+Member profiles contain standard social networking features, including: blogs (video, audio, and plain text), RSS feeds, guest books, friends, multi-media message boards, widgets and groups
+Includes online media management, member management, reporting and advertising administrationKickApps is often compared with Brightcove, Flux and Ning.Founder and Chairman, Eric Alterman, was also founder of MeshNetworks (acquired by Motorola), Military Commercial Technologies, TeraNex, SkyCross, Jed Broadcasting, Quadfore, Centerpoint and Triton Network Systems
+In January 2011, KickApps was acquired by KIT digital.
+
+
+== Venture Funding ==
+$7 million Series A round from Spark Capital and also included Prism VentureWorks and Jarl Mohn
+$11 million Series B round from SoftBank Capital and a group of previous investors
+$14 million Series C round from North Atlantic Capital and all previous investors.
+
+
+== References ==
+
+
+== External links ==
+KickApps
+The KickApps Blog
+Eric Alterman's blog
+Spark Capital
+Prism VentureWorks
+Perfect Sense Digital

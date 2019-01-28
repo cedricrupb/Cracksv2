@@ -1,0 +1,62 @@
+== Abstract == 
+StumbleUpon was a discovery and advertisement engine (a form of web search engine) that pushed recommends of web content to its users. Its features allowed users to discover and rate Web pages, photos and videos that are personalized to their tastes and interests using peer-sourcing, social-networking and advertising (sponsored pages) principles. The service shut down in June 2018.
+Toolbar versions existed for Firefox, Google Chrome, Opera, Internet Explorer, and Safari. StumbleUpon also worked with some independent Mozilla-based browsers.
+Native mobile StumbleUpon apps existed for Windows, iOS, Android, and the Amazon Appstore (now part of Social One).On June 30, 2018, StumbleUpon was shut down in favor of a new discovery platform called Mix.
+
+
+== History ==
+StumbleUpon was founded in November 2001 by Garrett Camp, Geoff Smith, Justin LaFrance and Eric Boyd during Garrett's time in graduate school at the University of Calgary. The idea of creating a company was established before the content: of the five or six ideas for products, StumbleUpon was chosen. Garrett describes in a BBC interview the moment for him in which he felt the company had really taken off: "When we passed the half a million mark (in registered users), it seemed more real."The popularity of the software attracted Silicon Valley investor Brad O'Neill to take notice of the company and assist with a move to San Francisco, as well as bringing in subsequent fund-raising totaling $1.2 million from other angel investors including Tim Ferriss, Ram Shriram (Google), Mitch Kapor (Mozilla Foundation), First Round Capital and Ron Conway. Ferriss, Garrett Camp and Geoff Smith all live in San Francisco, where StumbleUpon is headquartered.StumbleUpon was owned by eBay from May 2007, when it was acquired for $75 million until April 2009, when Garrett Camp, Geoff Smith and several investors bought it back.In September 2012, StumbleUpon released an update for its iOS app that brought the new feature "StumbleDNA," which aggregates content that is recommended for you, trending content as well as a section where you can view the activity of your StumbleUpon connections.On September 25, 2012, StumbleUpon released a redesign of its website in beta, and extended it to all users on October 24.On January 16, 2013, StumbleUpon confirmed it had laid off 30% of their staff from 110 to 75 employees. In August 2015, StumbleUpon was in financial debt and was re-acquired by Garrett Camp, who re-gained a majority share of the company.On June 30, 2018, StumbleUpon shut down.
+
+
+== Service details ==
+
+StumbleUpon uses collaborative filtering (an automated process combining human opinions with machine learning of personal preference) to create virtual communities of like-minded Web surfers. Rating Web sites update a personal profile (a blog-style record of rated sites) and generate peer networks of Web surfers linked by common interest. These social networks coordinate the distribution of Web content, so that users "stumble upon" pages explicitly recommended by friends and peers. Giving a site a thumbs up results in the site being placed under the user's "favorites".  Furthermore, users have the ability to stumble their personal interests like "History" or "Games".
+Users rate a site by giving it a thumbs up, thumbs down selection on the StumbleUpon toolbar, and can optionally leave additional commentary on the site's review page, which also appears on the user's blog. This social content discovery approach automates the "word-of-mouth" referral of peer-approved Web sites and simplifies Web navigation.
+In the settings section of Stumbleupon you can further filter the types of webpages you may come across. There are interest filters which allow you to include only content for all ages, R rated content, or X rated content. There are also content filters in which you can choose to allow stumbles with audio, video, flash and images.
+On October 24, 2011, StumbleUpon deleted years' worth of user-generated content, and removed HTML blogging, standalone blog posts, and photoblogging capabilities.  Additionally, all previous blog posts were converted from HTML to plain text, and all photos were deleted from previous blog posts.  StumbleUpon stated, "Over time, we’ve come to realize that we are not able to support and scale a blogging platform, in addition to our recommendation engine."Content that is "stumbled upon" is informed by users' stated preferences, the thumbs up and down of their friends, and demographic information, among other factors the company does not fully disclose.
+
+
+=== StumbleVideo ===
+On December 13, 2006, StumbleUpon launched their StumbleVideo site. The new site allows users without a toolbar to "stumble" through all the videos that toolbar users have submitted and rate them using an Ajax interface. The site currently aggregates videos from CollegeHumor, DailyMotion, FunnyOrDie, Google, MetaCafe, MySpace, Vimeo and YouTube.StumbleUpon launched a version of StumbleVideo for the Internet Channel Web browser that runs on the Wii console on February 12, 2007. This version of StumbleVideo is optimized for the Wii's smaller screen resolution and offers similar functionality to that of the original version.
+In September 2013, StumbleUpon acquired 5by, a video discovery app created by Greg Isenberg.
+
+
+=== StumbleThru ===
+In April 2007, StumbleUpon launched the StumbleThru service, allowing users of the toolbar to stumble within sites such as YouTube, The Onion, Public Broadcasting Service and Wikipedia. According to the announcement of the feature, StumbleUpon plans on adding additional Web sites in the future.
+As of June 13, 2010, sites using StumbleThru include BBC.com, Blogger, Break.com, CNN.com, Collegehumor, Flickr.com,  FunnyorDie.com, Howstuffworks.com, HuffingtonPost.com,  Metacafe.com,  Pbs.org, PhysOrg, Rolling Stone, Scientific American, The Onion, Wikipedia, Wired.com, WordPress and YouTube.
+The StumbleThru service allows registered users to stumble on specific sites like the ones listed above, rather than the entire Web.
+
+
+=== Su.pr ===
+In March 2009, StumbleUpon launched Su.pr, a URL shortening service. It is primarily used to link to Twitter and Facebook statuses and updates. This service is similar to that of bit.ly and TinyURL. From March through May 2009, the su.pr service was only available to people who had received an invite code, but later, it was made available to all StumbleUpon users. In 2013, StumbleUpon discontinued the su.pr service to focus more on their lists feature.
+
+
+== Advertising ==
+Paid Discovery is StumbleUpon's ad system. StumbleUpon's platform lets users surf the web by Stumbling to sites that match their interests, simply by hitting a button on their browser or mobile device. With Paid Discovery, an advertiser's URL (website, video, etc.) becomes part of that stream.
+Up to 5% of all stumbles are reserved for Paid Discovery where the advertisers directly insert their web page into the user experience. This means the audience lands directly on their web pages, videos and photos. Users can also provide feedback (thumbs up / thumbs down) on this content.
+Since Paid Discovery sends visitors directly to the advertiser's page, there's no need to create an ad; the advertiser's entire web page is the ad. When an ad is delivered to a user, a green icon or “Sponsored” will appear in the toolbar or mobile app, denoting a paid stumble. StumbleUpon doesn't serve typical display ad formats, such as pop-ups/interstitials, banners, etc.
+Advertisers have different options for how quickly and how many users they can reach with their content, depending on their marketing objectives. Serving priority dictates the order with which their web page is considered for placement, based on available inventory.
+According to a 2013 fourth quarter Shareaholic's Social Media Traffic Report, Stumbleupon accounted for more publisher traffic than YouTube, Reddit, Linkedin and Google combined. Over 100,000 publishers, brands and marketers use Stumbleupon's advertising and content distribution platform in order to promote their products and services. Stumbleupon now serves over 125 million brand and publisher sponsored placements per month.
+
+
+== Growth ==
+StumbleUpon claims to have more than 10 million members as of 18 May 2010. StumbleUpon said that before the end of May 2008, it would have collected its five-billionth "stumble", more than one billion of which would have taken place in 2008 alone. In August 2011, StumbleUpon reached the 25 billion stumble mark, at which point they were adding over 1 billion stumbles per month. In April 2012, StumbleUpon announced that it had over 25 million registered users of the service.
+
+
+== History of owners and acquisitions ==
+In May 2007, StumbleUpon was purchased by eBay. Early reports indicated that the company was also in talks with Google and AOL before the eBay announcement.
+In September 2008, eBay hired Deutsche Bank to try to sell StumbleUpon again.
+On April 13, 2009, founders Garrett Camp and Geoff Smith, and other investors including Ram Shriram, bought the company.
+
+
+== See also ==
+Rockmelt
+Social bookmarking
+Web 2.0
+
+
+== References ==
+
+
+== External links ==
+Official website

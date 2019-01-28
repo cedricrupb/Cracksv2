@@ -1,0 +1,24 @@
+== Abstract == 
+Critical Software is an international information systems and software company, headquartered in Coimbra, Portugal. The company was established in 1998, from the University of Coimbra's business incubator and technology transfer centre, Instituto Pedro Nunes (IPN). The company's headquarters are located in Coimbra, Portugal, with other offices in Porto and Lisbon (Portugal), Southampton (United Kingdom), Munich, (Germany) and California, (United States).
+Critical Software provides systems and software services for safety, mission and business-critical applications in several markets, including aerospace, defence, automotive, railway, telecoms, finance and energy & utilities. Core competences include system planning and analysis, system design and development, embedded and real-time systems, command & control systems, security and infrastructure, systems integration, business intelligence, independent software verification & validation, digital transformation and smart meter testing.
+Critical Software's delivery unit was the first in Portugal to be rated at CMMI Maturity Level 5. The company is one of only a few dozen organisations in the world which have both Waterfall and Agile software development units rated at Maturity Level 5.
+
+
+== Critical Group ==
+The Critical Group comprises a series of technology companies, many of which were formed from ideas and solutions originally developed within Critical Software.
+
+Critical Manufacturing provides automation and manufacturing software for high-tech industries.
+Critical Materials develops products that provide diagnostics and prognostics for critical structural systems.
+onCaring is a technology company addressing the needs of 20 million seniors living in long-term care across Europe, USA and Brazil.
+Critical Links provides purpose-built solutions to simplify the delivery of digitised content to schools.
+Coimbra Genomicsis a company that develops solutions that aim to bridge the gap between genomic knowledge and medical practice.
+Retmarkerprovides software solutions for the screening and progression monitoring of retinal diseases.
+Critical Venturesaims to partner with and invest in entrepreneurs developing innovative technologies with the potential to disrupt global markets.
+
+
+== External links ==
+Official site
+Critical Software S.A., BusinessWeek
+Achievements Small & Medium Sized Enterprises, European Space Agency
+Critical Software Shows Portugal Can Grow, Forbes
+Critical Software – Pioneers, Up Magazine

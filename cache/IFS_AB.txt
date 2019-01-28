@@ -1,0 +1,58 @@
+== Abstract == 
+IFS AB (Industrial and Financial Systems) is a multinational enterprise software company headquartered in Linköping, Sweden.  The company maintains development centers in Sweden, Sri Lanka, Poland and North America, with 3,500 employees and corporate subsidiaries worldwide. IFS provides enterprise software for ERP, EAM and FSM.  Its primary product is IFS Applications.
+
+
+== Business ==
+IFS focuses on four core strategic processes: Service & Asset Management, Manufacturing, Supply Chain and Projects.
+
+
+== Critical Acclaim ==
+IFS named as a leader in two of Gartner's Magic Quadrants: Field Service Management and single-instance ERP for product-centric midmarket companies.IFS praised as being the first, or among the first enterprise software companies to realize innovations including embedded enterprise application search, embedded environmental footprint management  and embedded social media navigational functionality.
+
+
+== History ==
+1983 - IFS is founded.
+1985 - IFS launches its first software product, IFS Maintenance.
+1990 - IFS Applications launched as a complete suite.
+1991 - IFS expands into Norway and Finland.
+1992 - IFS opens the first office outside Scandinavia in Poland.
+1993 - IFS first graphical user interface launched. Expansion begins in Denmark and Malaysia.
+1994 - IFS Applications among first suits launched on a service-oriented architecture.
+1995 - IFS expands into North America.
+1996 - IFS listed on the Swedish stock exchange. IFS Applications becomes component-based.
+1997 - IFS Web Client is launched.
+1997 - IFS established in Sri Lanka.
+1999 - IFS is represented on all continents.
+2001 - Java-based Internet portals and mobile solutions are introduced.
+2002 - All components are available as web services.
+2004 - NEC increases its support for IFS by acquiring 7.7% of IFS share capital.
+2005 - >500 000 users of IFS Applications.
+2006 - The release of IFS Applications 7. Alastair Sorbie appointed CEO.
+2007 - IFS delivers solutions for the Intelligent Desktop and project–based solutions
+2008 - IFS launches a new GUI for increased usability and higher productivity.
+2009 - Acquisition of MultiPlus Solutions
+2010 - Acquisition of 360 Scheduling.
+2011 - Acquisition of LatinIFS
+2012 - Acquisition of Metrix
+2013 - The release of IFS Applications 8.
+2015 - IFS Announce 1 million global users and releases IFS Applications 9 at World Conference, Boston.
+2015 - IFS is acquired by EQT
+2016 - Acquisition of Mxi Technologies
+2017 - Acquisitions of mplsystems, FSM (UK), WorkWave
+2018 - Darren Roos appointed as CEO
+2018 - The release of IFS Applications 10
+
+
+== See also ==
+List of ERP software packages
+
+
+== References ==
+
+
+== External links ==
+Company website
+Information Week social media in ERP article
+Acquisition of 360 Scheduling
+Eco Footprint Management article
+BBC about IFS

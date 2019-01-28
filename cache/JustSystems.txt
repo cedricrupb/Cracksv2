@@ -1,0 +1,24 @@
+== Abstract == 
+JustSystems Corporation (Japanese: 株式会社ジャストシステム, Hepburn: Kabushiki-gaisha Jasuto-Shisutemu) is a Japanese software development house.  The company's main products are a word processor, Ichitaro ("JohnnyOne"), and a graphics package, Hanako.
+
+
+== Description ==
+JustSystems is based in Tokushima on Shikoku island in Japan.  Its most recent business has focused on Java and XML-themed technology development. As of 2012, JustSystems is the only Japanese full member of the Unicode Consortium.
+
+
+== History ==
+JustSystems was founded in 1979 by Hatsuko and Kazunori Ukigawa, and was incorporated in June 1981.  Early in the company's history, it created one of the first computer input methods for Japanese users, creating compatibility between QWERTY keyboards and Kanji characters.  In the mid 1990s, JustSystems founded the Justsystem Pittsburgh Research Center near Carnegie Mellon University.  In 1996, JustSystems purchased Claritech, a Carnegie Mellon startup run by David Evans, and renamed it JustSystems Evans Research (JSERI).  In 1997, JustSystems went public and was listed on the JASDAQ Securities Exchange.
+In 2006, JustSystems purchased the XMetaL XML authoring suite from Blast Radius to complement its xfy XML development platform.  In 2009, Keyence Corporation became the largest shareholder of JustSystems.  Later that year, Kazunori and Hatsuko Ukigawa resigned from the company.
+
+
+== See also ==
+Justsystem Pittsburgh Research Center
+
+
+== References ==
+
+
+== External links ==
+JustSystems (in Japanese)
+JustSystems (in English)
+Google Finance (in English)

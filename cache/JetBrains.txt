@@ -1,0 +1,126 @@
+== Abstract == 
+JetBrains s.r.o. (formerly IntelliJ Software s.r.o.) is a software development company whose tools are targeted towards software developers and project managers.As of  2017, the company has around 700 employees in its six offices in Prague, Saint Petersburg, Moscow, Munich, Boston and Novosibirsk.The company offers an extended family of integrated development environments (IDEs) for SQL and the programming languages Java, Kotlin, Ruby, Python, PHP, Objective-C, C++, C#, Go and JavaScript.
+In 2011 the company entered a new area by introducing Kotlin, a programming language that runs in a Java virtual machine (JVM).
+InfoWorld magazine awarded the firm "Technology of the Year Award" in 2011 and 2015.
+
+
+== History ==
+JetBrains, initially called IntelliJ, was founded in 2000 in Prague by three software developers: Sergey Dmitriev, Valentin Kipiatkov and Eugene Belyaev.The company's first product was IntelliJ Renamer, a tool for code refactoring in Java.In 2012, after having been the company's CEO for 12 years, Sergey Dmitriev entrusted the company to two newly appointed CEOs, Oleg Stepanov and Maxim Shafirov, and devoted himself to his scientific endeavors in the field of bioinformatics.
+
+
+== Products ==
+
+
+=== IDEs ===
+
+
+==== AppCode ====
+
+AppCode is an IDE primarily targeting development for Apple platforms like macOS, iOS, watchOS and tvOS. It supports programming in C, C++, Objective-C and Swift. Unlike most JetBrains that are cross-platform, AppCode is only available for macOS.
+
+
+==== CLion ====
+CLion (pronounced "sea lion") is a cross-platform C and C++ IDE for Linux, macOS, and Windows integrated with the CMake build system. The initial version supports GNU Compiler Collection (GCC) and Clang compilers and GDB debugger, LLDB and Google Test. In addition to C and C++, CLion supports other language either directly or via plugins: Kotlin, Python, Rust, Swift and others.
+
+
+==== DataGrip ====
+DataGrip is a cross-platform IDE that is aimed at DBAs and developers working with SQL databases. It has built-in drivers that support AWS Redshift, DB2, Derby, Exasol, H2, HSQLDB, Microsoft Azure, MySQL, Oracle, PostgreSQL, SQL Server, SQLite and Sybase.
+
+
+==== GoLand ====
+GoLand is a cross-platform IDE aimed at providing an ergonomic environment for Go development. The new IDE extends the IntelliJ platform with the coding assistance and tool integrations specific for the Go language.
+
+
+==== IntelliJ IDEA ====
+
+IntelliJ IDEA was JetBrains's first IDE. It is cross-platform and is primarily aimed at Java, Java EE and web development. An open-source version is available under the name IntelliJ IDEA Community Edition, and a proprietary version as IntelliJ IDEA Ultimate Edition. IntelliJ IDEA Ultimate Edition can be made to include the feature set of PhpStorm, PyCharm and RubyMine via plugins.
+
+
+==== PhpStorm ====
+
+PhpStorm is a cross-platform IDE for PHP and web development. It supports PHP 5.3, 5.4, 5.5, 5.6, 7.0, 7.1 and 7.2.
+
+
+==== PyCharm ====
+
+PyCharm is a cross-platform IDE that is primarily targeted for Python and web development. An open source version is available as PyCharm Community Edition, and a proprietary version as PyCharm Professional Edition. A special version called PyCharm Edu is based on PyCharm aimed specifically at learning programming with Python.
+
+
+==== Rider ====
+Rider is a cross-platform IDE intended for C# and .NET development that comes with ReSharper functionality built-in.
+
+
+==== RubyMine ====
+RubyMine is a cross-platform IDE that supports Ruby, Ruby on Rails and web development.
+
+
+==== WebStorm ====
+WebStorm is a cross-platform IDE primarily for web, JavaScript and TypeScript development. Many of JetBrain's other IDEs include the feature set of WebStorm via plugins.
+
+
+=== Plugins ===
+
+
+==== ReSharper Ultimate ====
+ReSharper Ultimate is a group of products containing the award-winning ReSharper plugin for Visual Studio, dotCover, a code coverage tool, dotMemory, a memory profiler, dotTrace, a performance profiler and dotPeek, a disassembler. ReSharper provides a series of features for Visual Studio developers including code analysis, refactoring, navigation, test runner, build runner and more.
+
+
+=== Programming languages ===
+
+
+==== Kotlin ====
+
+Kotlin is a statically typed programming language that runs on the Java Virtual Machine and also can be compiled to JavaScript source code. The name comes from the Kotlin Island, near St. Petersburg.
+Kotlin is designed to be an industrial-strength object-oriented language, and a "better language" than Java, but still be fully interoperable with Java code, allowing companies to make a gradual migration from Java to Kotlin.
+
+
+==== MPS ====
+
+MPS (Meta Programming System) is an open-source language workbench that focuses on Domain-specific Languages (DSLs). It leverages projectional editing instead of classical textual editing offering easy language composition, multiple code visualizations as well as various non-textual notations for DSL designers. MPS comes with its own code generation engine, which can be used to provide semantics for MPS-based DSLs. In addition to editor and generator declaration, MPS provides the possibility to capture information about other language aspects like type-system, constraints, data flow, and others.
+
+
+=== Team tools ===
+
+
+==== Hub ====
+Hub is a free JetBrains Team Tools connector. It enables advanced integration between JetBrains team collaboration tools: YouTrack, Upsource, Teamcity. A user can log in once in Hub and stay authenticated in all JetBrains tools throughout. Hub also manages a single database of users, groups, roles, permissions, projects, and shares it among all connected YouTrack and Upsource installations. It provides a Dashboard to track issues, commits, build status and more data from YouTrack, TeamCity and Upsource.
+
+
+==== TeamCity ====
+
+TeamCity is a continuous integration and continuous delivery server developed by JetBrains. It is a server-based web application written in Java. TeamCity is a proprietary commercial software with a Freemium license for up to 20 build configurations and three free build agents.
+
+
+==== Upsource ====
+Upsource is a code review and repository browsing tool. It provides a UI for exploring and monitoring Git, GitHub, Mercurial, Perforce and/or Subversion repositories from a central location. Upsource provides syntax highlighting for multiple programming languages. Having IntelliJ IDEA core in it, Upsource provides server-side static code analysis, code-aware navigation, and usage search for Java, PHP, JavaScript and Kotlin languages.
+
+
+==== YouTrack ====
+
+YouTrack is a proprietary, commercial web-based bug tracker, issue tracking system, and agile project management software developed by JetBrains. It focuses on development teams, providing them with query-based issue search with auto-completion, manipulating issues in batches,[2] extended keyboard-shortcuts support, customizing the set of issue attributes,[3] and creating custom workflows.[4] YouTrack provides support for both Scrum and Kanban methodologies and allows developers to follow a custom process. YouTrack is localized into English, German, Russian, Spanish and French. YouTrack is available as SaaS and on-premises. Free version includes up to 10 users.
+
+
+=== Toolbox App ===
+Toolbox App is an application that facilitates easy installation and uninstallation of JetBrains IDEs. It allows users to log in with a JetBrains account and install all of the products they own.
+
+
+== Revenue model ==
+JetBrains IDEs have several license options, which feature same software abilities and differ in their price and terms of use.
+The team products are available as hosted and installed versions and have free versions for small teams.
+Many products are free for open source projects and educational institutions.IntelliJ IDEA Ultimate and PyCharm are the only paid products in a field of free or open source options.
+
+
+== Open source projects ==
+In 2009, JetBrains open-sourced the core functionality of IntelliJ IDEA by offering the free Community Edition. It is built on the IntelliJ Platform and includes its sources. JetBrains released both under Apache License 2.0. In 2010, Android support became a part of the Community Edition, and two years later Google announced its Android Studio, the IDE for mobile development on Android platform built on the Community Edition of IntelliJ IDEA and an official alternative to Eclipse Android Developer Tool. In June 2015, it was announced that the support of Eclipse ADT will be discontinued making Android Studio the official tool for Android App development.MPS, short for meta programming system, and Kotlin, a statically typed programming language for JVM, are both open source and non-commercial.
+
+
+== Past projects ==
+Fabrique is a rapid application development (RAD) software framework for building custom web and enterprise applications. Introduced in 2004, it is apparently dead since 2008.
+Omea is a desktop-based reader and organizer for RSS (and later of every bit of information that comes across one's desktop), the first and so far the only consumer-oriented product from JetBrains. Introduced in 2004, it failed to gain expected popularity. In 2008, having reached v 2.2, Omea was open-sourced under the GNU General Public License (GPL) v2. The product is still available for download, and after the retirement of Google Reader, has gained some attention again.Astella is an IDE for Adobe Flash and Apache Flex. This most short-lived JetBrains product was announced in October 2011, just a month before Adobe Systems killed Mobile Flash.
+
+
+== References ==
+
+
+== External links ==
+Official website

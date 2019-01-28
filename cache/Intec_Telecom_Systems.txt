@@ -1,0 +1,36 @@
+== Abstract == 
+Intec Telecom Systems is a provider of Business Support System (BSS) software and related services, primarily for the telecommunications industry but increasingly for customers in other industries including Financial Services, Transportation and the Government sector. Listed on the main London stock market (symbol: ITL.L), it is a constituent of the FTSE SmallCap Index. Intec is now officially a part of CSG International.Intec has 31 regional offices and support centres serving a global customer base of approximately 400 customers in over 90 countries - including 60 of the world’s top 100 telecoms operators. Customers range from large national and international carriers, through content and next generation service providers to internet, media, cable, transportation, and financial services companies. Intec's customers include:  AT&T, Aircel, Asia Pacific Telecommunications, Best Buy, Bharti, Cable & Wireless, Celcom Axiata, China Mobile, China Unicom, Claro, Cox Communications, Deutsche Telekom, Digicel, Eircom, Exatel, France Telecom, Grameenphone, Hutchison 3G, Nextel, O2, Orange, Qualcomm, R (cable operator), Reliance, Singtel Optus, T-Mobile, TalkTalk Group, TerreStar, Telefonica, Telekom Malaysia, Telecom New Zealand, US Cellular,  Verizon, VimpelCom, Virgin Mobile, Vivo, Vodafone, Tele2 and Dialog (Sri Lanka)
+Intec maintains a distributed approach to support and development, with main R&D facilities in USA, South Africa, Australia and support centres throughout North America, Central & Latin America, Europe, Middle East, Africa and Asia.
+Intec has over 1600 staff.
+
+
+== History ==
+Intec was started in the UK in 1997 to sell interconnect billing systems. From this point the company expanded both organically and through acquisition. Intec became a public company in 2000, following its IPO on the London Stock Exchange. The following year it completed its first acquisition, with the purchase of Computer Generation Inc (CGI) and Dataphone UK Ltd. In 2002 Intec further consolidated the interconnect billing market with acquisitions from ICL and Ericsson. In 2003 Intec entered the IP services mediation and charging market with the acquisition of Digiquant (the assets of which were subsequently sold to Volubill). The Digiquant acquisition was followed in 2004 with the acquisition of the Singl.eView product line from ADC. In 2006 Intec acquired EUR systems, a USA based provider of bureau services, which has been integrated with Intec’s other managed services and outsourcing facilities.Intec has been the recipient of a number of industry awards, including:
+
+In 2006 Intec was selected by Frost & Sullivan as the recipient of its 2006 Growth Strategy Leadership Award in the communications billing vendor market.
+In 2008 Intec was selected as BSS vendor of the Year in TelecomAsia's readers choice awards 
+In 2009 Intec was awarded ‘Best Billing Solution’ at the Billing & OSS World Execellence Awards. The company won for its work with Polish operator PolkomtelThe company was acquired by CSG Systems International of the United States for £237 million in November 2010.
+
+
+== Products and services ==
+Intec's products cover three principal areas:
+
+Interconnect Billing & Wholesale Management
+Retail Customer Care, Charging & Billing
+Mediation & Activation.Intec's range of products, solutions and services includes:
+
+Retail billing and customer management
+Multi-service mediation and activation
+Inter-carrier billing settlements including US CABS and ITU-based settlement
+End-to-end content partner management
+Optimised wholesale routing and trading
+Real-time pre/post-paid mediation and charging
+Pre-integrated solutions for wholesale, wireless and core IMS charging functions
+
+
+== References ==
+
+
+== External links ==
+Intec homepage
+CSG International homepage

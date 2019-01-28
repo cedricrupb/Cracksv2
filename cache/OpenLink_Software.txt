@@ -1,0 +1,58 @@
+== Abstract == 
+OpenLink Software, Inc., is a software company founded in 1992 with its  headquarters in Burlington, Massachusetts, United States, although some research and product development takes place within the EU, across the UK, Netherlands and Bulgaria. The company develops and deploys standards-compliant middleware products that cover:
+
+Transparent access to SQL data sources via ODBC and JDBC drivers, and OLE-DB, ADO.NET, and XMLA data providers;
+Enterprise Data Integration of heterogeneous SQL and XML and RDF data sources;
+Web Services Composition and Deployment;
+Business Process Management and Integration.OpenLink Software is creator and owner of the Universal Data Access drivers suite
+(comprising  ODBC drivers, JDBC drivers, OLE-DB providers, ADO.NET providers, and XMLA providers); the Virtuoso Universal Server; the iODBC driver manager; an AJAX toolkit for rich Internet application development; OpenLink Data Spaces; and other middleware products.
+Other sources of revenue for OpenLink Software include providing support and consulting as well as training and
+certification for the Virtuoso Universal Server and their Universal Data Access drivers. OpenLink Software products
+are also embedded in products by other companies including: Apple, North Plains Systems, Avaya, Lucent, Sungard Bi-Tech, Open Text, and others.
+
+
+== History ==
+1992 Company founded (as PAL Consulting) by Kingsley Uyi Idehen
+1993 Shipped first ODBC functionality on non-Windows platforms, Universal DataBase Connectivity (UDBC); name changed to OpenLink Software
+1995 Shipped iODBC, the first ODBC Driver Manager for non-Windows platforms
+1998 Acquired full rights to Kubl, which evolved into the Virtuoso Universal Server; Orri Erling joined staff
+1998 Shipped Virtuoso 1.0, including Virtual Database / Federated Database/Hybrid Data Server Functionality
+2000 Shipped Virtuoso 1.5, adding a Validating XML Parser (supporting XML Schema), XSLT processor, SQL-to-XML transformation, XQuery, XPath, WebDAV support, and a native XML datatype
+2001 Shipped Virtuoso 2.0, addingExecution of native or third party SQL Stored Procedures over HTTP
+Execution of native or third party SQL Stored Procedures via SOAP (by publishing SQL Stored Procedures as WSDL and SOAP compliant Web Services)
+Proxy Generation for third party Web Services
+Exposure of saved SQL, SQL-to-XML, XQuery, and XPath queries as Web Services2001 Shipped Virtuoso 3.0, addingDBMS hosting of the Java, Microsoft .NET CLR, and Mono runtime environments
+User Defined Types (UDT) support with implementation in SQL, Java or .NET
+Use of UDTs for abstracting web services, generating a UDT from a WSDL.
+SQL Stored Procedures extensibility via code associated with hosted runtimes
+Dynamic Language & Web page hosting for PHP, ASP.NET, JSP, Python, Perl, and Ruby (a recent addition)
+Procedure Views (Table Valued Functions in SQL Server and Table Functions in Oracle)
+Improved Cost based Distributed Query Optimizer for handling heterogeneous SQL joins
+Bi-Directional Transaction Replication
+XA-based 2-Phase Commit for Distributed Transactions2006 Shipped OpenLink Data Spaces 1.0, incorporatingWeb Application Framework
+Weblog Publishing Platform
+RSS/Atom/RDF Feed Aggregator
+Photo Sharing system
+Discussion Server
+Wiki Engine
+BPEL Process Manager (application layer above the in-built BPEL core)
+Unified Storage (that includes automatic metadata extraction and resource classification using RDFS and OWL)
+Social Networking Framework2006 Shipped Virtuoso 4.0, forking Open Source (no Virtual DBMS features) and Closed Source (including VDBMS features) editions
+2006 Shipped OpenLink ODBC Adapter for Ruby on Rails/Active Record
+2006 Shipped OpenLink AJAX Toolkit 1.0
+2007 Shipped Virtuoso 4.5, adding --RDF Mapping of relational data.
+Bitmap index support
+Engine enhancements including automatic background compaction, better SMP behavior with shorter critical sections, fixes in transaction logic and more.2007 Shipped Virtuoso 5.0, adding --Full Text Indexing of Literal Objects in SPARQL Queries (this includes the magic predicate "bif:contains")
+Subclass and Subproperty Support (Inferencing)
+SPARQL Aggregate Functions
+SPARUL support (SPARQL Inserts, Updates, and Deletions)
+SPARQL Endpoint ("/sparql") is equipped with in-built RDF Middleware that enables non-RDF Data Sources (e.g., (X)HTML Pages, Microformats embedded in (X)HTML, and Web Services [e.g., Googlebase, Flickr, Del.icio.us and others]) to be treated as bona fide SPARQL Graph URIs
+Improved Support of XML Schema Type System
+Enhanced SPARQL to Relational Mapping (RDF VIEWs of SQL Data)
+
+
+== References ==
+
+
+== External links ==
+Official website

@@ -1,0 +1,39 @@
+== Abstract == 
+Pegasus Software is based in Kettering, England and develops accounting and financial management, supply chain, business intelligence, payroll, crm, construction and service management software applications for small and medium-sized businesses.
+
+
+== History ==
+The company was founded in 1981 and was among the first software houses in the UK to launch its applications for the MS-DOS platform. Since then Pegasus has become firmly established as one of the major suppliers of modular accounting, business and payroll software solutions to SMEs.
+
+
+== Market position ==
+Today there are around 25,000 Pegasus software application licenses in use, its predominant market is the UK and Ireland and the company employs around 80 people. The products are sold through a network of 80 Partners. Pegasus operated as a subsidiary of a larger British software group, Systems Union Group plc. until August 2006, but now operates as a subsidiary business unit of the Atlanta-based Infor Global Solutions.
+
+
+== Products ==
+Pegasus Opera 3 SQL SE - The first phase of the new SQL based solution - Financials and Supply Chain - released May 2018
+Pegasus Business Cloud - allowing Opera 3 to be accessed via a browser with UK data centres.
+Pegasus Web Xchange - Web based additions to Opera 3 - Payroll Self Service and Timesheets with Mobile Sales Q2 of 2016.
+Opera 3 - Released November 2010 - new interface, open period accounting, Landed Costs, Scheduler, Stocktake, Credit Management Centre and Payroll - RTI, Auto Enrolment and National Employment Savings Trust(NEST) or NOW Pensions.
+Opera II, general accounting, financial management, payroll & HR, supply chain management, pipeline management and document management suite
+Opera II SQL - as above but running on a MS SQL database
+Service & Help Desk Management
+Operations II, manufacturing, MRP, bill of materials
+CIS, contract costing, construction industry focus
+XRL, business intelligence tool, add-in for Microsoft Excel
+Pegasus Instant Messenger
+Opera Hosted Solution
+Mobile SOP
+Capital Gold
+Capital Payroll
+
+
+== See also ==
+Comparison of accounting software
+
+
+== References ==
+
+
+== External links ==
+Official site

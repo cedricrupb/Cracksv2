@@ -1,0 +1,59 @@
+== Abstract == 
+G Data Software AG is a German software company that focuses on computer security solutions. The company was founded in 1985 and is headquartered in Bochum. They are known for being the creators of the world's first antivirus software. G Data use multiple scanning engines; one is developed in-house and the other is the BitDefender engine. G Data provides several security products that are targeted at home and business markets. The company has a North American subsidiary located in Atlanta, Georgia.
+
+
+== History ==
+G Data was founded in Bochum, Germany in 1985. The company introduced its first computer security product Anti-Virus Kit (AVK) in 1988 for Atari ST.Beside focus on the security market, G Data also created software for voice recognition (Invox) and speech synthesis (Logox).G Data computer security products use two scan-engines, originally by Avast and Bitdefender. The 2014 release introduced their own scan-engine (CloseGap), which replaced Avast. However, the upgrade to new version was not painless, as users of weaker computers experienced system slowdowns. The company promptly solved this issue by an update.In September 2015, G Data launched a new messaging app called Secure Chat which uses the Signal Protocol. The application is based on a fork of Signal and its source code is published under the GPLv3 license.
+
+
+== Features ==
+Some of the features that G Data's solutions support are:
+Safe surfing
+Safe shopping
+Safe emailing and chatting
+Protection against spyware
+Safe online banking
+Blocks spam
+Protection against hacking
+Parental controls
+Data backup
+Data recovery
+Security tuning
+Data safe
+Device control
+Safe emailing and chatting
+BankGuard
+
+
+== Versions ==
+Home SecurityAntiVirus
+InternetSecurity
+TotalSecurity
+AntiVirus for MacBusiness SecurityAntiVirus Business
+AntiVirus Enterprise
+ClientSecurity Business
+ClientSecurity Enterprise
+EndpointProtection Business
+EndpointProtection Enterprise
+MailSecurity
+PatchManagement
+
+
+== Awards and tests ==
+av-comparatives.orgGold award for highest detection rate of products tested (99.7%)
+Gold award for highest proactive detection rate of new/unknown malware (~61%, with 20 false positives)IPACSO Innovation Framework for ICT-SecurityInnovative Cyber Security Company
+
+
+== See also ==
+
+Comparison of antivirus software
+Comparison of computer viruses
+List of antivirus software
+
+
+== References ==
+
+
+== External links ==
+Official website
+North American website

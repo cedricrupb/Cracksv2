@@ -1,0 +1,35 @@
+== Abstract == 
+Xero is a New Zealand domiciled public software company that offers a cloud-based accounting software platform for small and medium-sized businesses. The company has offices in New Zealand, Australia, the United Kingdom, the United States, Canada, Asia and South Africa. It is listed on the Australian Securities Exchange.Its products are based on the software as a service (SaaS) model and sold by subscription, based on the type and number of company entities managed by the subscriber.As of March, 2018, its products are used in over 180 different countries.
+
+
+== History ==
+Xero was founded by Rod Drury and his personal accountant when they felt that traditional desktop accounting software had become outdated and decided to create a modern cloud-based product. Xero Limited was officially formed in 2006 in Wellington, New Zealand where its global headquarters are still located. The company entered the Australian market and the United Kingdom in 2008, and United States in 2011. In March 2016, Xero opened its first Asia office in Singapore and two years later in March 2018, the second Asia office in Hong Kong. In May 2018, Xero launched its cloud accounting software platform in Canada.Rod Drury announced he would be stepping down as CEO in March 2018, with Steve Vamos entering the role in April 2018.In June 2018, Xero updated its tagline from ‘beautiful accounting software’ to ‘beautiful business’.
+
+
+=== Funding ===
+Xero went public on the New Zealand Exchange on June 5, 2007 with a $15 million (NZD) IPO, gaining 15% on its first trading day. Drury decided to list on the NZX rather than receive investment from Silicon Valley in order to avoid being pressured into selling to a larger competing company. The company focused on the New Zealand market and product and development for its first five years before entering other markets. It went public on the Australian Securities Exchange on November 8, 2012. Xero transitioned to a sole listing on the ASX on February 5, 2018, delisting from the NZX on February 2, 2018. January 31, 2018 was the last day Xero shares were traded on the NZX.
+Xero has also received funding from various investors. In 2009, it closed a $23 million (NZD) round of funding led by MYOB founder Craig Winkler. It raised an additional $4 million (NZD) in 2010 from Peter Thiel's Valar Ventures, who also invested an additional $16.6 million (USD) in February 2012. It raised $49 million in a funding round in November 2012 with the largest amounts coming from Peter Thiel and Matrix Capital. It was reported by PandoDaily that the company has raised more than $100 million and had a valuation of approximately $1.4 billion on the NZE as of May 2013. This was prior to the company receiving an additional $180 million (NZD) from Thiel and Matrix in October 2013, bringing total funding to more than $230 million. Xero raised an additional $100 million from Accel and $10.8 million from Matrix Capital in February 25, 2015.
+
+
+=== Acquisitions ===
+Xero has acquired several companies since its launch. In July 2011, the company acquired Australian online payroll provider Paycycle for a mixture of cash and shares totaling $1.9 million (NZD). The acquisition allowed Xero to integrate payroll into their Australian product offering. It acquired Spotlight Workpapers in July 2012 for a mixture of cash and shares totaling $800,000. The same year it acquired online job, time and invoice management solution WorkflowMax for cash and shares totaling $6 million (NZD).
+
+
+== Product ==
+The key features of Xero include automatic bank and credit card account feeds, invoicing, accounts payable, expense claims, fixed asset depreciation, purchase orders, and standard business and management reporting. Xero can automatically import bank and credit card statements. It offers a free API that enables customers and 3rd-party software vendors to integrate external applications with Xero. Over 275 3rd-party software vendors have built Xero add-ons. Xero also supports multiple tax rates and currencies. It also incorporates a payroll feature and a projects feature. Additionally, users can access local teams in New Zealand, Australia, Europe and the United States.
+All financial data is stored in the cloud on a single unified ledger, allowing users to work in the same set of books regardless of location or operating system. Fast Company featured the software's UI design in a 2012 article, stating that the design is simple and makes it easy for users to get an at-glance idea of real time financial situations. In 2011, Xero released the Xero Touch mobile apps for iOS and Android devices, allowing users to issue invoices while on-site with clients. On August 16, 2016, Xero announced they are partnering with PayPal to allow invoices to be paid via Paypal directly from the invoice.
+
+
+== Awards and recognition ==
+In 2007, Xero received the Overall Partner Solution of the Year for Small Business and was also featured as part of a Microsoft case study. The company was the recipient of two Webby Awards in 2009, including the People's Choice Award for Banking/Bill Pay. They were honorees of the 2010 Webby Awards for Web Services & Applications. They received a Fast Company Innovation by Design Award in 2012 and was recognized as one of the 10 Smart Financial Apps to Solve Small Business Accounting Challenges by YFS Magazine in 2013. Additional awards in 2013 included the Awesome Application Award from the Sleeter Group and the New Zealand Company of the Year from Hi-Tech. In June 2014, Xero topped the Forbes magazine "100 most innovative growth companies" list. Also in 2014, the company was named one of Macworld's recommended online business accounting apps. In January 2015, Xero was named best accounting software, with a score of 83, in the Cloudswave Awards, and for the second time, named New Zealand's company of the Year from Hi-Tech. Xero won Product of the Year at the 2017 British Accountancy Awards and also won Best Overall Fintech platform by the Fintech Breakthrough Awards in 2017. The company was rated by Canstar Blue as Australia’s best accounting software four consecutive years from 2015-2018.
+
+
+== See also ==
+Comparison of accounting software
+
+
+== References ==
+
+
+== External links ==
+Official Site

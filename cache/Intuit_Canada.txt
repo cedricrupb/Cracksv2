@@ -1,0 +1,49 @@
+== Abstract == 
+Intuit Canada ULC is a developer of financial management and tax preparation solutions for personal finance and small business accounting. Services are delivered on a variety of platforms including application software, software connected to services, software as a service, platform as a service and mobile applications. Intuit Canada has employees located all across Canada, with offices in Edmonton, Alberta, and Mississauga, Ontario, and is an affiliate of Intuit Inc.
+
+
+== Profile ==
+Intuit Canada was founded following the acquisition of a Canadian company in 1993 by Intuit. In 1992, Edmontonians and University of Alberta graduates Bruce Johnson and Chad Frederick had built a tax preparation product called WINTAX - Canada's first Microsoft Windows-based personal tax preparation software. In 1993, they agreed to be acquired by Chipsoft, manufacturer of the U.S. personal income tax software TurboTax. Shortly after the WINTAX acquisition, Chipsoft agreed to merge with Intuit, the developer of the Quicken financial software.Intuit Canada continued to update and support the WINTAX software, which was renamed QuickTax in 1995 and then renamed TurboTax in 2010. Intuit Canada quickly became the hub for international development at Intuit, producing localized versions of Quicken and QuickBooks for Canada (in French and English) and the United Kingdom. The U.K. version of Quicken was discontinued in 2005.
+
+
+== Products ==
+
+
+=== Current products ===
+TurboTax (formerly QuickTax) - offered in Basic, Standard, Premier, and Home & Business versions, as well as TurboTax 20 for preparing multiple returns.
+ImpôtRapide - French language version of TurboTax - offered in de base, de luxe, premier and particuliers et entreprises versions.
+TurboTax online - Online versions of Free, Student, Standard, Premier and Home & Business.
+ImpôtRapide en ligne - Online versions of ImpôtRapide gratuit, étudiant, de luxe, premier and particuliers et entreprises.
+SnapTax - an iPhone app that allows users to complete their income tax return on their iPhone
+TurboTax Refund Calculator - an iPad app that estimates tax returns and illustrates how changes, such as having a baby, can impact your income tax return
+QuickBooks - Small business accounting and financial management software, offered in EasyStart, Pro and Premier versions.
+QuickBooks Payroll Solutions - extends QuickBooks Pro and Premier into an in-house payroll solution.
+Intuit Merchant Service for QuickBooks - lets you process credit and debit transactions directly in any version of QuickBooks.
+QuickBooks Enterprise Solutions  - for midsized companies that require more capacity, functionality and support than is offered by traditional small business accounting software; includes QuickBooks Payroll.
+QuickBooks Online - an online small business accounting and financial management solution, offered in EasyStart, Essentials and Plus versions.
+Intuit GoPayment - process and receive payments on the go through your mobile device.
+QuickBooks Succès PME  - French language version of QuickBooks, offered in Succès PME, Succès PME Pro, and Succès PME Premier versions
+QuickBooks Succès PME Service de paie - French language version of the Payroll Solutions
+Quicken - Personal financial management software, available in Cash Manager and Home & Business versions
+ProFile Basic and Premier Editions - Professional Tax Preparation Packages
+
+
+=== Discontinued products ===
+TaxWiz - Tax preparation software - company purchased in 2002, discontinued in 2007
+WillExpert - Software package for preparing personal wills (for use within all of Canada with the exception of Quebec, due to specific provincial legislation)
+
+
+== Recent changes ==
+In 2008, Intuit Canada discontinued the TaxWiz software and added QuickTax Basic to their lineup.  Changes made by the Canada Revenue Agency forced Intuit and other tax preparing software companies to limit the number of returns available from their software to 20. This caused Intuit Canada to stop offering QuickTax Pro50 and Pro100 products, and they now offer QuickTax 20 as an alternative.
+Intuit Canada has since announced that for the 2010 tax year, they will discontinue use of the name QuickTax and replace it with the name TurboTax - thus bringing the product in line with Intuit's American tax-filing software.
+
+
+== Awards ==
+In October 2008, Intuit Canada was named one of Alberta's Top Employers by Mediacorp Canada Inc., which was announced by the Calgary Herald and the Edmonton Journal.
+
+
+== References ==
+
+
+== External links ==
+Intuit Canada

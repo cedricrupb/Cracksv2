@@ -1,0 +1,12 @@
+== Abstract == 
+LogiSense is a privately owned software development company headquartered in Cambridge, Ontario Canada. LogiSense's EngageIP software provides Telecommunications billing, Operational Support Systems, Captive Portal and Bandwidth management solutions.
+Traditionally LogiSense services growth IP markets with customers including Digiweb, Infosat Communications, SimpleSignal, Atria Networks (acquired by Rogers Communications), Telesphere, KMTS (acquired by Bell Aliant) among others.
+
+
+== Notable customer relationships ==
+In October 2009, LogiSense announced the implementation of EngageIP at KeyOn - one of the largest providers of wireless broadband, satellite and voice over Internet protocol (VoIP) services in the United States.
+In October 2009, LogiSense partners with BillSoft to provide billing, rating, taxation solution for U.S. nationwide hosted VoIP services at Telesphere.
+In June 2010, LogiSense wins multi-year Billing and OSS deployment with Calgary-based Infosat Communications LP In Jan 2016, Numerex leveraged the LogiSense EngageIP M2M Usage Rating and Billing platform to address the explosive growth in the IoT/M2M ecosystem and to improve its back-office effectiveness In Nov 2016, BroadSoft, Inc - a global Unified Communications as a Service (UCaaS) provider -  chose LogiSense to consolidate their multiple billing systems onto a single platform 
+
+
+== References ==

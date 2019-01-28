@@ -1,0 +1,101 @@
+== Abstract == 
+Sling Media Inc. is a technology company that develops placeshifting and Smart TV solutions for consumers, multiple-system operators and set top box manufacturers. The company is based in Foster City, California, and was a subsidiary of EchoStar Corporation (acquired in the fall of 2007).  Their initial product, the Slingbox, debuted on the US market on July 1, 2005.  The EchoStar business unit was part of a corporate assets exchange with Dish Network at the beginning of 2017 and now operates as Dish Technologies Corporation under Dish Network.
+
+
+== History ==
+The company was founded in 2004 by brothers Blake and Jason Krikorian from San Francisco, along with Bhupen Shah, who had the relationships to help establish Sling's presence in Bangalore. The idea for Sling originated during the 2002 Major League Baseball season, when the Krikorian brothers, who are dedicated San Francisco Giants fans, often traveled far from home, and faced missing the best games of the season.On September 24, 2007, EchoStar announced an agreement to acquire Sling Media for approximately $380 million USD. Blake and Jason left the company in January 2009.On August 3, 2016, Blake Krikorian died of a heart attack at age 48.
+
+
+== Products ==
+
+
+=== Retail Slingbox Hardware ===
+(see also Slingbox)The original Slingbox, now referred to as the Slingbox Classic, was released July 1, 2005. It was designed by Yves Béhar, and had the appearance of a "foil-wrapped chocolate bar."
+
+
+==== Second Generation - AV, Tuner and Pro ====
+Improvement came with the introduction of the second-generation line of Sling Media products: the Slingbox AV, the Slingbox Tuner, and the Slingbox Pro.  While the Slingbox AV became a simplified unit with s-video and composite inputs only, the Slingbox Tuner provided service for the other end of the spectrum, with only a single coaxial input for use by basic cable and antenna-only applications.  The Slingbox Pro introduced a four input design, combining the capabilities of the AV and Tuner units while also allowing for the connection of high definition sources with the use of an accessory cable adding component and digital audio inputs.
+
+
+==== Third Generation - SOLO and PRO-HD ====
+In 2007, Sling introduced the Slingbox SOLO, a third generation box that was a "streamlined version of the Slingbox Pro". It provided a high quality standard definition video stream and a lower price point. This model was followed up 
+in 2008 by the Slingbox PRO-HD, a high-end device that supported placeshifting HDTV (1080i) video and currently is the only Slingbox to include an ATSC tuner for over-the-air HDTV broadcasts.  The Slingbox SOLO was also later repackaged as the Slingbox 120 for special vertical and international markets.An unknown number of the third generation Slingboxes were susceptible to the capacitor plague. While many enthusiasts replaced these capacitors on their own, Sling later addressed these issues in support. Remanufactured and refurbished third-generation Slingboxes have been fixed as well.
+
+
+==== Fourth Generation - 350 and 500 ====
+In October 2012, Sling Media launched the Slingbox 350 and 500 to replace the Slingbox SOLO and PRO-HD. With the digital television transition in the United States, the desirability of a standard definition focused product no longer existed in Sling's main market. Therefore, both boxes include HDTV capability, though the ATSC digital tuner that was included in the PRO-HD was not included in either Slingbox. The Slingbox 350 is the base product, with one SD/HD audio-video input (composite or component) and an ethernet port to connect to the Internet.
+The Slingbox 500 was positioned as a platform for next-generation Smart TV capabilities. In addition to placeshifting, the Slingbox 500 included streaming apps from Dish Digital, including Dishworld and Blockbuster On-Demand, as well as the ability to manage and view personal media, including video. The Slingbox 500 had Wi-Fi networking and HDMI passthrough capabilities. However, because of restrictive HDCP DRM, Sling still recommends that customers use component cables for placeshifting.
+
+
+==== Fifth generation - Slingbox M1 ====
+In July 2014, Sling Media launched the award-winning Slingbox M1 to replace the Slingbox 350. With the introduction of this Slingbox, the entire line of Slingbox hardware now support Wi-Fi connectivity. In addition, users were now able to configure a Slingbox M1 using the Slingplayer for iPad, iPhone and Android phone, as well as the Slingplayer for Desktop that was reintroduced at the same time.
+
+
+==== SlingTV and the Slingbox 500 ====
+Also introduced in July 2014, SlingTV was a free upgrade to the Slingbox 500 that provides a graphical user interface and information overlays for living room TV viewing in addition to providing place shifting capabilities. The interface also provides recommendations based on aggregate viewing data, popularity and social activity. It was released in September 2014 to current Slingbox 500 customers.With the licensing of the Sling brand to Dish Network for the Sling Television OTT service, the SlingTV box reverted to the Slingbox 500 product name.
+
+
+=== Other Hardware and Accessories ===
+In 2008, Sling introduced the SlingCatcher, a hardware device to view content from a remote Slingbox, as well as personal media. The product garnered mixed reviews from its limited capabilities, including no support for HDTV, complex nature and its price.Because early Slingboxes did not support Wi-Fi, connecting them to a network was difficult if a customer did not have an ethernet jack near their set top box. To address these needs, Sling released the SlingLink line of power line adapters. With the release of a Wi-Fi-enabled Slingbox 500, the product was discontinued and is no longer supported.
+
+
+=== Slingplayer Apps ===
+
+
+==== Viewing on the Desktop - Slingplayer for Desktop and Watch ====
+When the original Slingbox Classic was launched, customers used free downloadable software for Windows or Macintosh to access video that was streamed from the Slingbox. That application was phased out with the introduction of the Slingbox Watch website, which utilized an NPAPI plug-in for video streaming. Because of the discontinuation of the NPAPI support on Chrome and demand from customers, Sling reintroduced the Slingplayer for Desktop application for Windows and Apple Mac OS X with the launch of the Slingbox M1. However, the relaunched desktop application is only compatible with the Slingbox M1 models. In addition, Sling has also added banner ads and periodic pre-roll video ads when using the Watch website.
+
+
+==== Slingplayer for Mobile ====
+Customers can also purchase the Slingplayer apps for their mobile smartphones and tablets. Supported platforms include iOS (iPhone and iPad), Android (phones and tablets), Kindle Fire and Microsoft Windows 8.1 tablets. Previously supported platforms include Blackberry, Palm OS and Symbian.
+Slingplayer apps also have the ability to "cast" their video stream to a TV screen through a Smart TV streaming box. Supported platforms include:
+
+AppleTV via AirPlay (iOS Slingplayer apps only)
+Roku devices, which requires a Roku customer to download a Slingplayer for Roku appThere were several native apps for Connected Devices that can view and control a remote Slingbox. Those devices included:
+WD TV Live
+Sony Internet Player with Google TV
+Netgear NeoTV
+Boxee Box
+Logitech RevueThese apps have been deprecated as of July 2014 and will no longer be supported.
+
+
+=== OEM Solutions ===
+In addition to developing products and services for consumers, Sling also provides multiple-system operators and set top box manufacturers a solution for mobile viewing of licensed content and the integration of Smart TV technologies. These capabilities include an SDK, cloud infrastructure and engineering resources.
+Sling's technology is currently embedded in the following products:
+
+Dish Network Sling Adapter for ViP 722, ViP 722k and XiP 813 (Hopper) set top boxes. Also known as the Slingbox 700U.
+Dish Network XiP 913 (Hopper with Sling) set top box
+Dish Network ViP 922
+Dish Anywhere
+ARRIS MS4000
+
+
+== Criticism and controversy ==
+Early in its history, the Slingbox caused widespread speculation of its possible legal implications. High on the list of issues cited by critics, was the ability to provide a loophole around proximity control, potentially allowing people outside the approved viewing area for events, especially sports, in which distribution traditionally has been restricted by time and region.  However, the practice of placeshifting is not unlike that of timeshifting, which has been upheld in courts across the world due to the personal nature of a timeshifted rebroadcast, which is deemed "non-infringing fair use". Furthermore, Sling Media's technology limits access to a single authorized user, which prevents unauthorized or multi-user access thereby maintaining the personal nature of the placeshifted content.
+
+
+== Broadcasting ==
+Ironically, given the controversy, the retail Slingbox hardware has found an unexpected niche market in television broadcasting. Broadcast engineers at several TV stations have installed them at remote "towercam" locations to observe traffic and weather conditions. KPIX-TV in San Francisco has several connected with wireless networking, using EV-DO via a cellular network (mobile phone) provider.  This costs only a few hundred dollars for each site, versus well over ten thousand for a setup with a remote pickup unit and auxiliary broadcast licenses. However, the system is not yet reliable or broadband enough to handle live remote broadcasts.
+Cable TV providers are also using it to provide proof of performance for companies that run TV ads on their systems. It is also used with Amateur television transmissions. There are also hosted Slingbox services where the slingbox and set top box are hosted in a data centre on behalf of the user. This means that the management of the devices is done by the host and that the user can access TV streams from their hosted Slingbox wherever, whenever and whatever device (PC, Mobile, TV) they want.
+
+
+== Clip+Sling ==
+During the 2007 Consumer Electronics Show, the firm announced a future feature named Clip+Sling. It allows users to share clips of their favorite TV shows with each other through a hosted Web service. The announcement was made during Leslie Moonves' keynote speech.On December 2, 2008, Sling Media announced the public launch of Sling.com, an online video entertainment destination. Users can go to Sling.com to watch clips, TV shows, films, news and sports. This includes video programming from over 90 content providers spanning 150 content brands.  In addition to the on-demand offerings, Slingbox owners could connect to their Slingbox through the website, making their Slingboxes available without a software client download.However, Clip+Sling was never launched and Sling.com eventually became the home of the web-based Watch player. This signaled Sling Media's intent at the time to migrate users from using desktop software to Sling.com to access to their Slingbox.
+
+
+== Placeshifting Patent Litigation ==
+In January 2013, EchoStar and Sling Media sued Belkin and Monsoon Multimedia for infringing on five patents related to placeshifting. In March 2013, Sling Media also initiated a complaint with the ITC to block the importing of Belkin and Monsoon Media products related to the @TV and Vulkano products, respectively. The ITC complaint also targeted chips from C2 Microsystems.
+In May 2013, Belkin and Sling Media settled their portion of the suit. In December 2013, the ITC closed out the case and barred Monsoon Multimedia products from being imported into the US.
+
+
+== See also ==
+Sling TV
+
+
+== References ==
+
+
+== External links ==
+Official website 
+Official Forums
+Sling Media at Crunchbase
