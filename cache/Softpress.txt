@@ -1,0 +1,18 @@
+== Abstract == 
+Softpress Systems is a software publisher with its headquarters in Witney in Oxfordshire, UK. The company was founded in 1993. Originally the developers of a print-publishing application called Uniqorn. Development of Uniqorn ended after Apple discontinued printing support for its QuickDraw GX component.
+The company initiated development of Freeway (currently version 7) in 1996, a DTP (Desktop publishing)-style website creation program. Freeway was an HTML generator, as opposed to an HTML editor, allowing users to design in similar ways to DTP applications rather than work directly with code. There was a Pro - professional - version and Express version - focused towards home and small business users. Softpress also developed Exhibeo, for creating web galleries and showcases.
+Softpress Systems was managed by Joe Billings (Managing Director), Richard Logan (Financial Director), and Stewart Fellows (Technical Director).
+
+
+== Closure/Resurrection ==
+On 4 July 2016, Softpress announced that it had ceased trading, saying that "current revenue and new product development, are insufficient to sustain the company as a viable entity going forward’.On 1 February 2017 the Softpress website at http://www.softpress.com/ proclaimed:
+
+"We missed you!
+We’ve returned from the netherworld......."
+
+
+== References ==
+
+
+== External links ==
+www.softpress.com

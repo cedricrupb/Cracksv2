@@ -1,0 +1,89 @@
+== Abstract == 
+Comarch is a Polish multinational software house and systems integrator based in Kraków, Poland. Comarch provides services in areas such as Telecommunications, Finance and Banking, the Services Sector and to Public Administration. Its services include billing, Enterprise Resource Planning (ERP) systems, IT security, IT architecture, management and outsourcing solutions, Customer Relationship Management (CRM) and sales support, electronic communication and business intelligence.
+Comarch was founded in 1993 by professor Janusz Filipiak, a tenured scientist on leave from AGH University of Science and Technology in Kraków. Since then the company has built an international network of subsidiaries. Today, the Comarch Group employs more than 6000 employees in 30 countries around the world with a steady yearly revenue stream of over $300 million.
+Comarch is a publicly held corporation, listed on the main market of the Warsaw Stock Exchange. The Comarch Corporate Group  comprises international branches (such as Comarch AG, Comarch S.A.S., Comarch, Inc. and others) and Kraków football club MKS Cracovia SSA. SoInteractive, an engagement and gamification provider, is an associated company. In November 2017, Comarch won tender for maintenance of the KSI system for ZUS.
+
+
+== Software products ==
+
+Comarch Altum
+Comarch Credit Process Management
+Comarch Business Process Management
+Comarch Asset Management
+Comarch BI
+Comarch Billing
+Comarch CRM systems
+Comarch ECM
+Comarch EDI
+Comarch ERP Enterprise
+Comarch Loyalty Management
+Comarch Internet Banking
+Comarch Network & Service Inventory
+Comarch Security Suite
+Comarch New Generation Service Assurance (NGSA)
+
+
+== Structure of the Group ==
+
+Poland
+
+Comarch SA
+CA Consulting SA
+Comarch Management Sp. z o.o.
+Comarch Corporate Finance
+Comarch Management Sp. z o.o.
+CASA Management and Consulting Sp. z o.o.
+Bonus Management Sp. z o.o.
+Bonus Development Sp. z o.o.
+Bonus Management Sp. z o.o.
+Bonus Development Sp. z o.o.
+Comarch Pointshub SA
+Comarch Infrastruktura SA
+iComarch24 SA
+Comarch Healthcare Spółka Akcyjna
+Comarch Technologies Sp. z o.o.
+Comarch Polska SA
+Opso Sp. z o.o.
+MKS Cracovia SSA
+Bonus Management Sp. z o.o.
+SoInteractive SA
+Metrum Capital SAEurope
+
+Comarch Software und Beratung AG (Germany)
+Comarch Swiss AG (Switzerland)
+Comarch Solutions GmbH (Austria)
+Comarch AG (Germany)
+CAMS AG (Switzerland)
+Comarch Luxembourg S.à r.l. (Luxemberg)
+Comarch S.A.S. (France)
+Comarch R&D S.à r.l. (France)
+Comarch UK Ltd. (Great Britain)
+Comarch LLC (Ukraine)
+Comarch OOO (Russia)
+Comarch Technologies OY (Finland)
+Comarch s.r.o (Slovakia)
+Comarch Software Spain S.L.U. (Spain)
+Comarch S.R.L. (Italy)
+Comarch AB (Sweden)North America
+
+Comarch, Inc. (United States)
+Comarch Pointshub, Inc. (United States)
+Comarch Canada Corp. (Canada)
+Comarch Espace Connecté Inc. (Canada)
+Comarch Panama, Inc. (Panama)
+Thanks Again LLC (United States)South America
+
+Comarch Sistemas LTDA (Brazil)
+Comarch Chile SPA (Chile)
+Comarch Argentina S.A. (Argentina)
+Comarch Colombia S.A.S. (Colombia)
+Comarch Perú S.A.C. (Peru)Asia
+
+Comarch Middle East FZ LLC (UAE)
+Comarch Software (Shanghai) Co. Ltd (China)
+Comarch Yazilim A.S. (Turkey)
+Comarch Malaysia SDN. BHD. (Malesia)
+Comarch Saudi Arabia Co. (Saudi Arabia)
+
+
+== References ==

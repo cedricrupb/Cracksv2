@@ -1,0 +1,39 @@
+== Abstract == 
+Materialise, headquartered in Leuven, Belgium, is active in the field of additive manufacturing, also known as 3D Printing.
+
+
+== History ==
+Materialise was founded in June 1990 by Wilfried Vancraen as a spin-off of the KU Leuven, and was the first Rapid Prototyping Service Bureau in the Benelux region.Following its conception, in addition to offering prototyping services, Materialise concentrated on the research and development of software solutions to transfer data to 3D printers. In 1991, the company released their medical software solution Mimics and in 1992, their industrial software solution Magics. Software development centers are now found in Belgium (HQ), the United States, Germany, China, Ukraine and Malaysia.
+In the year 2000, in order to be able to build single-piece Stereolithography models with dimensions of more than 2 meters, Materialise developed Mammoth Stereolithography. The build area of the largest Mammoth machine is 2100x700x800mm. 
+
+Materialise has offices on five continents.  Since 2014, Materialise has been publicly listed on the NASDAQ as MTLS.
+
+
+== Software ==
+Materialise's suite of industrial software includes data preparation and design optimization tools, programs to integrate 3D printing into production environments, and software and control systems used by machine manufacturers to connect applications and 3D printers.
+
+
+== Medical 3D Printing & Biomedical Engineering ==
+Materialise's medical 3D Printing and biomedical engineering offering includes medical-image-based planning solutions, surgical drilling and cutting guides, patient-specific implants, and 3D-printed replicas of internal organs (such as the heart, kidneys, liver, etc.) based on CT or MRI data.
+
+
+== Additive Manufacturing ==
+Materialise currently runs over 140 industrial 3D printers, with manufacturing centers found in Belgium (HQ), Poland, the Czech Republic, and Germany. Their manufacturing processes include Selective Laser Sintering, Stereolithography, Direct metal laser sintering, Fused deposition modeling, multi-jet modeling and vacuum casting (with 3D printed casts).
+Two web services are associated with the manufacturing center. Industrial customers order parts, whether prototypes or functional parts, through OnSite. Designers and small businesses upload designs to the i.materialise 3D printing marketplace.
+
+
+== Applications ==
+The technology at Materialise is used in the automotive, aerospace, consumer electronics, orthopaedic, cardiovascular, and cranio-maxillofacial industries, as well as in architecture, fashion, jewelry, art, etc.
+
+
+== See also ==
+3D Printing Marketplace
+3DLT
+List of 3D printer manufacturers
+Sketchfab
+Sculpteo
+Shapeways
+Thingiverse
+
+
+== References ==

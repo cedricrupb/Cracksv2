@@ -1,0 +1,40 @@
+== Abstract == 
+VLSI Technology, Inc., was a company that designed and manufactured custom and semi-custom integrated circuits (ICs). The company was based in Silicon Valley, with headquarters at 1109 McKay Drive in San Jose.  Along with LSI Logic, VLSI Technology defined the leading edge of the application-specific integrated circuit (ASIC) business, which accelerated the push of powerful embedded systems into affordable products.
+VLSI was acquired in June 1999, for about $1 billion, by Philips Electronics and is today a part of the Philips spin-off NXP Semiconductors.
+
+
+== History ==
+The company was founded in 1979, by a trio from Fairchild Semiconductor by way of Synertek – Jack Balletto, Dan Floyd, and Gunnar Wetlesen – and by Doug Fairbairn of Xerox PARC and Lambda (later VLSI Design) magazine.
+Alfred J. Stein became the CEO of the company in 1982. Subsequently VLSI built its first fab in San Jose; eventually a second fab was built in San Antonio, Texas. VLSI had its initial public offering in 1983, and was listed on the stock market as (NASDAQ: VLSI). The company was later acquired by Philips and survives to this day as part of NXP Semiconductors.
+
+The original business plan was to be a contract wafer fabrication company, but the venture investors wanted the company to develop IC (Integrated Circuit) design tools to help fill the foundry.
+Thanks to its Caltech and UC Berkeley students, VLSI was an important pioneer in the electronic design automation (EDA) industry.  It offered a sophisticated package of tools, originally based on the 'lambda-based' design style advocated by Carver Mead and Lynn Conway.
+VLSI became an early vendor of standard cell (cell-based technology) to the merchant market in the early 1980s where the other ASIC-focused company, LSI Logic, was a leader in gate arrays.  Prior to VLSI's cell-based offering, the technology had been primarily available only within large vertically integrated companies with semiconductor units such as AT&T and IBM.
+VLSI's design tools included not only design entry and simulation but eventually also cell-based routing (chip compiler), a datapath compiler, SRAM and ROM compilers, and a state machine compiler.  The tools were an integrated design solution for IC design and not just point tools, or more general purpose system tools.  A designer could edit transistor-level polygons and/or logic schematics, then run DRC and LVS, extract parasitics from the layout and run Spice simulation, then back-annotate the timing or gate size changes into the logic schematic database.  Characterization tools were integrated to generate FrameMaker Data Sheets for Libraries.  VLSI eventually spun off the CAD and Library operation into Compass Design Automation but it never reached IPO before it was purchased by Avanti Corp.
+VLSI's physical design tools were critical not only to its ASIC business, but also in setting the bar for the commercial electronic design automation (EDA) industry.  When VLSI and its main ASIC competitor, LSI Logic, were establishing the ASIC industry, commercially available tools could not deliver the productivity necessary to support the physical design of hundreds of ASIC designs each year without the deployment of a substantial number of layout engineers. The companies' development of automated layout tools was a rational "make because there's nothing to buy" decision. The EDA industry finally caught up in the late 1980s when Tangent Systems released its TanCell and TanGate products. In 1989, Tangent was acquired by Cadence Design Systems (founded in 1988).
+Unfortunately, for all VLSI's initial competence in design tools, they were not leaders in semiconductor manufacturing technology.  VLSI had not been timely in developing a 1.0 µm manufacturing process as the rest of the industry moved to that geometry in the late 1980s. VLSI entered a long-term technology parthership with Hitachi and finally released a 1.0 µm process and cell library (actually more of a 1.2 µm library with a 1.0 µm gate).
+As VLSI struggled to gain parity with the rest of the industry in semiconductor technology, the design flow was moving rapidly to a Verilog HDL and synthesis flow. Cadence acquired Gateway, the leader in Verilog hardware design language (HDL) and Synopsys was dominating the exploding field of design synthesis. As VLSI's tools were being eclipsed, VLSI waited too long to open the tools up to other fabs and Compass Design Automation was never a viable competitor to industry leaders.
+Meanwhile, VLSI entered the merchant high speed static RAM (SRAM) market as they needed a product to drive the semiconductor process technology development.  All the large semiconductor companies built high speed SRAMs with cost structures VLSI could never match. VLSI withdrew once it was clear that the Hitachi process technology partnership was working.
+
+ARM Ltd was formed in 1990 as a semiconductor intellectual property licensor, backed by Acorn, Apple, and VLSI. VLSI became a licensee of the powerful ARM processor. Initial adoption of the ARM processor was slow. Few applications could justify the overhead of an embedded 32-bit processor. In fact, despite the addition of further licensees, the ARM processor enjoyed little market success until they developed the novel 'thumb' extensions. Ericsson adopted the ARM processor in a VLSI chipset for its GSM handset designs in the early 1990s. It was the GSM boost that is the foundation of ARM the company/technology that it is today.
+Only in PC chipsets, did VLSI dominate in the early 1990s. This product was developed by five engineers using the "Megacells" in the VLSI library that led to a business unit at VLSI that almost equaled its ASIC business in revenue. VLSI eventually ceded the market to Intel because Intel was able to package-sell its processors, chipsets, and even board-level products together.
+VLSI also had an early partnership with PMC, a design group that had been nurtured of British Columbia Bell. When PMC wanted to divest its semiconductor intellectual property venture, VLSI's bid was beaten by a creative deal by Sierra Semiconductor. The telecom business unit management at VLSI opted to go it alone. PMC Sierra became one of the most important telecom ASSP vendors.
+Scientists and innovations from the 'design technology' part of VLSI found their way to Cadence Design Systems (by way of Redwood Design Automation). Compass Design Automation (VLSI's CAD and Library spin-off) was sold to Avant! Corporation, which itself was acquired by Synopsys.
+
+
+== Global expansion, ARM, GSM and Philips/NXP ==
+VLSI maintained operations throughout the USA, and in Britain, France, Germany, Italy, Japan, Singapore and Taiwan. One of its key sites was in Tempe, Arizona, where a family of highly successful chipsets was developed for the IBM PC.
+In 1990, VLSI Technology, Acorn Computers, and Apple Computer were the founding investing partners in ARM Ltd.
+Ericsson of Sweden, after many years of collaboration, was by 1998, VLSI's largest customer, with annual revenue of $120 million. VLSI's datapath compiler (VDP) was the value-added differentiator that opened the door at Ericsson in 1987/8. The silicon revenue and GPM enabled by VDP must make it one of the most successful pieces of customer-configurable, non-memory silicon intellectual property (SIP) in the history of the industry. Within the Wireless Products division, based at Sophia-Antipolis in France, VLSI developed a range of algorithms and circuits for the GSM standard and for cordless standards such as the European DECT and the Japanese PHS.
+Stimulated by its growth and success in the wireless handset IC area, Philips Electronics acquired VLSI in June 1999, for about $1 billion. The former components survive to this day as part of Philips spin-off NXP Semiconductors.
+
+
+== Products ==
+AL153 VT16DPS
+
+
+== See also ==
+Design rule checking
+Electronic design automation (EDA)
+Semiconductor device
+Very-large-scale integration

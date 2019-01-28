@@ -1,0 +1,19 @@
+== Abstract == 
+Right Media, Inc. is an online advertising company that operates the Right Media Exchange (RMX), a marketplace that enables advertisers,  publishers, and ad networks to trade digital media. Technology providers develop services for the Exchange via APIs.
+Right Media was founded by Michael Walrath and brothers, Noah and Jonah Goodhart.
+On October 17, 2006, Yahoo! made a strategic investment in Right Media. Since the Yahoo! acquisition on April 29, 2007, Right Media has been integrated with Yahoo!'s offerings to small businesses.  Right Media's customers included Yahoo! (also an investor) and Fox Interactive Media.
+On April 30, 2007, Yahoo! announced the acquisition of Right Media in a total transaction valued at approximately $680 million.
+
+
+== References ==
+
+
+== External links ==
+Official website of Right Media, Inc.
+"Right Media's Big Ambitions" BusinessWeek 2007-03-06
+"The quest for the perfect online ad" Business 2.0 Magazine 2007-02-26
+"Yahoo! Leads Investment in Ad Auction Company Right Media" TechCrunch 2006-10-17
+"RMX Direct: alternative ad networks battle for your blog" TechCrunch 2006-08-12
+"Buying and Selling Ads Based on Performance" ClickZ, 2005-11-22
+"Click for Dollars", Fortune Magazine 2005-04-04
+"How I Did It: Mike Walrath, Founder, Right Media", Inc. Magazine 2005-04-04

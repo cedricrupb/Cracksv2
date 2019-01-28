@@ -1,0 +1,10 @@
+== Abstract == 
+Macecraft Software is a Finnish computer software company founded in 2001 by Jouni Vuorio and Jani Vuorio. The company is mainly known for its utility software jv16 PowerTools. Other products include standalone registry cleaners, RegSupreme Pro and RegSupreme.
+Before 2003, as a hobby Jouni Vuorio developed a freeware software called RegCleaner. The transition from creating freeware software to shareware products also generated heated discussion.In December 2013 a campaign was launched at the crowdfunding site indiegogo, with the aim of making Jv16 PowerTools free and open source. The Thunderclap Web site said that the campaign reached 252% of its goal with 1,258 supporters on 23 January 2014. Macecraft said that the campaign did not reach its funding goal, so the software was not made free and open source, although contributors were given updates. The Macecraft discussion forum went offline for a prolonged period at about this time, but eventually was back online, with apologies for the prolonged absence for maintenance.
+
+
+== References ==
+
+
+== External links ==
+Macecraft, Inc.

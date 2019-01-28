@@ -1,0 +1,21 @@
+== Abstract == 
+Sentient Networks was a San Jose, California based supplier of Asynchronous Transfer Mode and Frame Relay central office concentrators and switches.
+
+
+== Market space ==
+Sentient made products for internet service providers, inter-exchange carriers, and Regional Bell Operating Companies.  They developed the industry's highest density ATM Circuit Emulation Service (CES) Gateway
+
+
+== Technology used ==
+They used the AAL1gator designed by Network Synthesis, acquired by Integrated Telecom Technology in 1996, and further acquired by PMC-Sierra in 1998 to both implement their Circuit Emulation Service as well as to just carry T1/E1 signals across their backplane.
+
+
+== Corporate history ==
+Sequoia Capital was one of their venture capital backers.  Sentient Networks was founded in 1995. They negotiated an OEM agreement with DSC Communitations in 1997 for their Ultimate 1000 product.
+Sentient was acquired by Cisco Systems, also of San Jose, California, on April 8, 1999 in combination with Fibex Systems for $445 Million dollars.  At the time, they had 102 employees.  Their CEO was Greg McAdoo. They joined the Multi-Service Switching business unit (MSSBU) of Cisco, which was the part of Cisco created by their acquisition of Stratacom.
+
+
+== External links ==
+Sequoia Capital venture capital
+OEM agreement (headline only)
+Cisco acquires Fibex and Sentient

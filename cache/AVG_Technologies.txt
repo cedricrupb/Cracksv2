@@ -1,0 +1,63 @@
+== Abstract == 
+AVG Technologies CZ, s.r.o. was a Czech security software company headquartered in Brno, that was founded in 1991 by Jan Gritzbach and Tomáš Hofer and has been a wholly owned subsidiary of Avast since 2016. The company develops antivirus software and internet security services such as AVG AntiVirus and has corporate offices in Europe, Israel, Brazil, Canada and the United States.
+As of 2 February 2015, over 200 million active users used AVG's software products and services, which include internet security, performance optimization and personal privacy and identity protection applications. In July 2016, Avast announced that it intends to acquire AVG. The acquisition was completed on 30 September 2016 and Avast and AVG operate as a single company since 3 October 2016, retaining the two separate brands.
+
+
+== History ==
+Company was founded in Brno, Czech Republic by Jan Gritzbach and Tomáš Hofer in 1991 as GRISOFT /C/ SOFTWARE, spol. s r. o.. It was owned by Jan Gritzbach. 
+In 2001, Jan Gritzbach decided to sell Grisoft to Benson Oak Capital Acquisitions. Holding company Grisoft, Inc. based in Wilmington, Delaware was used for the transaction. In 2002 the company was renamed to GRISOFT, s.r.o.. Three years later, Benson Oak sold a 65% share in the company to Intel Capital and Enterprise Investors for US$52 million. Holding company was Grisoft Holdings B.V. based in Amsterdam, Netherlands, later Grisoft International B.V., that gradually became the main company.
+On 19 April 2006, Grisoft acquired the German company ewido Networks, an anti-spyware software manufacturer, and incorporated ewido's features into new versions of AVG software. On 6 November 2006, Microsoft announced that AVG Security products would be available directly from the Windows Security Center in Windows Vista. Since 7 June 2006, the AVG software has also been used as an optional component of GFI MailSecurity, produced by GFI Software. On 5 December 2007, Grisoft announced the acquisition of Exploit Prevention Labs, developer of the LinkScanner safe surfing technology.In 2008 GRISOFT, s.r.o. was renamed to AVG Technologies CZ, s.r.o. and Grisoft International B.V. to AVG Technologies, N.V.. This change was made to increase the effectiveness of their marketing activities. In January 2009, AVG announced their plans to acquire Sana Security were finalized. Plans to integrate Sana's technologies in their free consumer product, AVG Anti-Virus, are still under consideration, according to JR Smith, AVG's chief executive. Sana Security's developed technologies are currently licensed to Symantec. On 5 October 2009, TA Associates announced that they bought a minority stake in AVG Technologies for more than US$200 million. On April 2010, AVG announced the appointed of security industry veteran Yuval Ben-Itzhak as senior vice president of engineering. Ben-Itzhak became the Chief Technology Officer later that year. On 9 June 2010, AVG announced the acquisition of North Carolina-based Walling Data, a North America security software distribution that has distributed AVG offerings across the United States since 2001 On 10 November 2010, AVG announced the acquisition of Tel Aviv-based DroidSecurity, a company that specializes in the field of mobile security solutions for Android devices. Upon completion of the acquisition DroidSecurity will become a wholly owned subsidiary of AVG and DroidSecurity CEO and co-founder, Eran Pfeffer, will become the general manager of AVG’s Mobile Solutions Team. In December 2010, AVG released a mandatory-install update to the 2011 version of its antivirus software which caused thousands of 64 bit Windows Vista and Windows 7 computers to become completely inoperable. AVG has since released a fix which attempts to repair computers bricked after installing the update. Affected users can watch the following video on AVG's Official YouTube page to resolve the issue.On 28 January 2011, a dangerous rogue appeared. The interface and graphics resemble the previous version of the software and uses sophisticated social engineering to deceive users and infect their systems. The malware also contains the Internet Explorer emergency mode. On 1 December 2011, AVG Technologies announced its acquisition of Bsecure Technologies Inc. (Bsecure), a leading provider of proprietary, cloud-based technology in the Internet filtering industry since 2001, and the most endorsed software provider for family online safety.In 2011 the group was restructured again. AVG Technologies Holdings B.V. was founded, having AVG Technologies CZ, s.r.o. and AVG Technologies, N.V. as its subsidiaries. On 7 February 2012 AVG Technologies, N.V. was listed on New York Stock Exchange. On 12 June 2013, AVG Technologies announced the acquisition of Level Platforms.8 March 2013  JR Smith, CEO, tendered his resignation from AVG after eight years as CEO and leading the company to a successful IPO on the NYSE and delivering eight quarters of successive high-growth. On 30 July 2013, AVG Technologies announced Gary Kovacs as the company's new CEO.In November 2014, AVG Technologies announced the acquisition of Norman Safeground ASA, an Oslo-based company known for their Norman suite of security products. AVG Technologies announced in May 2015 the acquisition of Privax a UK based company which is an owner of HideMyAss VPN service.  In September 2015, the company announced the acquisition of Location Labs, a company with personal security products on all four major US cellular carriers.On 7 July 2016, Avast announced that it intended to acquire AVG Technologies for a purchase price of $25.00 per share in cash, for a total of around $1.3 billion. The acquisition was completed on 30 September 2016 and Avast and AVG operate as a single company as of Monday, 3 October 2016. The company was delisted from the New York Stock Exchange.
+
+
+== Products ==
+
+
+=== Multiplatform (Windows, Android, Mac) ===
+AVG AntiVirus FREE
+AVG Internet Security
+AVG TuneUp
+AVG Driver Updater
+AVG Ultimate
+
+
+=== Android security & productivity ===
+AVG AntiVirus for Android
+AVG Cleaner for Android
+Family products of AVG's Location Labs (AT&T Smart Limits, AT&T FamilyMap, Verizon FamilyBase, T-Mobile FamilyWhere, Sprint Family Locator, Sprint Mobile Controls)
+
+
+=== Mac security & productivity ===
+AVG AntiVirus for Mac
+AVG Cleaner for Mac
+
+
+=== Privacy ===
+AVG Secure VPN
+AVG Web TuneUp
+
+
+=== Business security ===
+AVG Business CloudCare
+AVG Business Managed Workplace
+AVG Business SSO (Secure Single Sign On)
+AVG AntiVirus Business Edition – An antivirus program with central administration capabilities
+AVG Internet Security Business Edition – A business security suite with central administration capabilities
+AVG File Server Business Edition
+AVG Email Server Business Edition
+AVG PC TuneUp Business Edition
+
+
+== Partnerships ==
+On 20 August 2010 AVG entered into partnership with Moka5 to secure desktop virtualisation solutions. The partnership adds a critical security layer to the virtual desktop marketplace, as more enterprise companies are turning to desktop virtualization as a secure solution for bringing your own computer (BYOC) and work from home initiatives for employees.On 1 July 2010 AVG partnered with Opera Software to provide malware security in their web browser Opera, the protection was added to the existing Fraud Protection technology (Netcraft and PhishTank from Haute Secure).In July 2011, AVG joined forces with Israeli company Zbang to launch Multimi, a free Windows and iPad app that integrates e-mail, social media and multimedia in one interface. AVG provides Linkscanner for the app, checking each link that is sent through e-mail, shared on a social network, or found via search.In December 2012, AVG and Yahoo! partnered for the Secure Search toolbar. In September 2013, AVG partnered with Facebook to launch Facebook's privacy application: AVG Crowd Control.
+
+
+== Controversy ==
+In May 2012, AVG Technologies issued a copyright claim, referred to as a 'takedown request,' for a YouTube video of 1987 pop song Never Gonna Give You Up, performed by British singer Rick Astley.  The video, which as of October 2015, has over 150 million views and 300,000 comments, had been uploaded in 2007, and was restored within 24 hours by YouTube.  The video's name refers to the internet meme commonly referred to as 'Rickrolling,' where someone pranks others by tricking them into going to the video.
+AVG's browser add-on, AVG Secure Search, has been criticized as being adware, since it is frequently bundled with other software and is often mistakenly installed, and exhibits malware-like behavior. AVG Secure Search is also advertised to users of the free versions of AVG products. Although the add-on offers legitimate malware-blocking capabilities, the default behavior of changing the internet browser's default search engine, homepage, and new tab page to AVG Secure Search is reminiscent of a potentially unwanted program (PUP), problems uninstalling the add-on have been widely reported, and the add-on could potentially make an internet browser more vulnerable to attacks.
+
+
+== References ==
+
+
+== External links ==
+Official website
