@@ -4,13 +4,15 @@ import de.upb.cracks.command.Predict;
 import de.upb.cracks.command.Train;
 import picocli.CommandLine;
 
-@CommandLine.Command(name="cracksFactCheck", version = "Cracks FactChecker v2.0")
-public class CracksFactCheck {
+@CommandLine.Command(name="cracks", version = "Cracks FactChecker v2.0")
+public class CracksFactCheck implements Runnable{
 
+    CommandLine commandLine;
 
     public static void main(String[] args){
-        args = new String[]{"predict", "/Users/cedricrichter/IdeaProjects/Cracksv2/cracks/src/main/resources/model.json", "/Users/cedricrichter/IdeaProjects/Cracksv2/cracks/src/main/resources/test.tsv", "/Users/cedricrichter/IdeaProjects/Cracksv2/cracks/src/main/resources/prediction.ttl"};
-        CommandLine commandLine = new CommandLine(new CracksFactCheck());
+        CracksFactCheck cracksFactCheck = new CracksFactCheck();
+        cracksFactCheck.commandLine = new CommandLine(cracksFactCheck);
+        CommandLine commandLine = cracksFactCheck.commandLine;
         commandLine.addSubcommand("train", new Train());
         commandLine.addSubcommand("predict", new Predict());
 
@@ -18,5 +20,10 @@ public class CracksFactCheck {
         commandLine.parseWithHandler(new CommandLine.RunLast(), args);
 
 
+    }
+
+    @Override
+    public void run() {
+        commandLine.usage(System.out);
     }
 }

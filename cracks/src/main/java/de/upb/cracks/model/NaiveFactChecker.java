@@ -44,7 +44,8 @@ public class NaiveFactChecker implements IFactChecker {
 
         for(FactCheckTrainEntity t : trainEntities) {
 
-            System.out.println("Process: " + (i++) + "/" + trainEntities.size());
+            System.out.println("Prepare on: " + (i++) + "/" + trainEntities.size()+": "+t.getQuery());
+
 
             Optional<IFactQuery> queryOptional = FactUtil.matcher().match(t.getQuery());
 
