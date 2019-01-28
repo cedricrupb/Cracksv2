@@ -47,7 +47,7 @@ public class FactCheckTSVParser {
 
 
         TsvParser parser = new TsvParser(settings);
-        parser.parse(stream, Charset.forName("ISO-8859-1"));
+        parser.parse(stream, Charset.forName("UTF-8"));
 
         return processor.entities;
     }
