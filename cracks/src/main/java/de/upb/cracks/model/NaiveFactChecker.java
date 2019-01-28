@@ -1,5 +1,7 @@
 package de.upb.cracks.model;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import de.upb.cracks.corpus.FactQueryEndpoint;
 import de.upb.cracks.corpus.WikiSentence;
 import de.upb.cracks.corpus.preprocess.FeatureExtractor;
@@ -8,7 +10,10 @@ import de.upb.cracks.io.FactCheckTrainEntity;
 import de.upb.cracks.rules.IFactQuery;
 import org.apache.commons.io.FileUtils;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -113,7 +118,10 @@ public class NaiveFactChecker implements IFactChecker {
 
         Map<String, NaiveBayes> map = new HashMap<>();
 
+        int i = 0;
         for(FactCheckTrainEntity trainEntity : trainEntities){
+
+            System.out.println("Train on: " + (i++) + "/" + trainEntities.size()+": "+trainEntity.getQuery());
 
             Optional<IFactQuery> queryOptional = FactUtil.matcher().match(trainEntity.getQuery());
 
@@ -143,5 +151,25 @@ public class NaiveFactChecker implements IFactChecker {
 
 
         return new NaiveFactCheckModel(map);
+    }
+
+    @Override
+    public IFactCheckModel load(Path path) throws IOException {
+
+        if(!Files.exists(path)){
+            throw new FileNotFoundException("File not found: "+path.toString());
+        }
+
+        BufferedReader reader = Files.newBufferedReader(path);
+        Gson gson = new Gson();
+
+        Map<String, NaiveBayes> naiveBayesMap = gson.fromJson(
+                reader, new TypeToken<Map<String, NaiveBayes>>(){}.getType()
+        );
+
+        reader.close();
+
+
+        return new NaiveFactCheckModel(naiveBayesMap);
     }
 }

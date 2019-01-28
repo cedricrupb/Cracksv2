@@ -1,9 +1,7 @@
-package de.upb.cracks.corpus;
+package de.upb.cracks.evaluation;
 
-import com.bitplan.mediawiki.japi.api.S;
-import de.upb.cracks.corpus.preprocess.SentenceSelector;
-import de.upb.cracks.evaluation.Evaluator;
-import de.upb.cracks.io.FactCheckQueryEntity;
+import de.upb.cracks.corpus.FactQueryEndpoint;
+import de.upb.cracks.corpus.WikiSentence;
 import de.upb.cracks.io.FactCheckTSVParser;
 import de.upb.cracks.io.FactCheckTrainEntity;;
 import de.upb.cracks.rules.IFactQuery;

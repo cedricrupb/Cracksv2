@@ -13,10 +13,16 @@ import java.util.List;
 public class FactCheckTSVParser {
 
     private InputStream stream;
+    private String encoding;
 
+
+    public FactCheckTSVParser(InputStream stream, String encoding) {
+        this.stream = stream;
+        this.encoding = encoding;
+    }
 
     public FactCheckTSVParser(InputStream stream) {
-        this.stream = stream;
+        this(stream, null);
     }
 
 
@@ -31,7 +37,7 @@ public class FactCheckTSVParser {
 
 
         TsvParser parser = new TsvParser(settings);
-        parser.parse(stream, Charset.forName("ISO-8859-1"));
+        parser.parse(stream, Charset.forName(encoding==null?"ISO-8859-1":encoding));
 
         return processor.entities;
     }
@@ -47,7 +53,7 @@ public class FactCheckTSVParser {
 
 
         TsvParser parser = new TsvParser(settings);
-        parser.parse(stream, Charset.forName("UTF-8"));
+        parser.parse(stream, Charset.forName(encoding==null?"UTF-8":encoding));
 
         return processor.entities;
     }

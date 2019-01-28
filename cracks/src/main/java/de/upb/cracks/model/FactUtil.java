@@ -1,6 +1,6 @@
 package de.upb.cracks.model;
 
-import de.upb.cracks.corpus.CoverageTest;
+import de.upb.cracks.evaluation.CoverageTest;
 import de.upb.cracks.rules.QueryEntityMatcher;
 import de.upb.cracks.rules.RuleMatcher;
 import de.upb.cracks.rules.RuleParser;
