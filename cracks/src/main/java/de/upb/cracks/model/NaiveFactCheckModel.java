@@ -60,6 +60,8 @@ public class NaiveFactCheckModel implements IFactCheckModel{
     @Override
     public void store(Path p) throws IOException {
 
+        p = p.toAbsolutePath();
+
         if(!Files.exists(p.getParent())){
             Files.createDirectory(p.getParent());
         }

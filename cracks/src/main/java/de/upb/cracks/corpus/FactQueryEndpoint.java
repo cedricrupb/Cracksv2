@@ -1,6 +1,5 @@
 package de.upb.cracks.corpus;
 
-import de.upb.cracks.corpus.preprocess.GloveFilter;
 import de.upb.cracks.rules.IFactQuery;
 import de.upb.cracks.rules.QueryEntity;
 
@@ -11,7 +10,6 @@ import java.util.Optional;
 public class FactQueryEndpoint {
 
     private WikiCorpus corpus = new WikiCorpus();
-    private GloveFilter filter = new GloveFilter(0.6);
 
 
     private List<WikiSentence> querySentence(QueryEntity e1, QueryEntity e2){
