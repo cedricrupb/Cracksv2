@@ -46,7 +46,7 @@ public class Predict extends ModelDepended {
             return;
         }
 
-        if(!Files.exists(inputPath)){
+        if(!Files.exists(testPath)){
             System.out.println(String.format("Unknown test file: %d. EXIT.", testPath.toString()));
             return;
         }

@@ -59,6 +59,23 @@ Cracks makes some assumption that mainly applies for Wikipedia:
 However, this assumption can be weaken by applying spell correction and correference resolution. 
 Performance could be improved by a more sophisticated classifier and more trainings data per Intention.
 
+### Examples
+
+Working:
++ Barak Obama's spouse is Michelle Obama.
++ Nobel Prize in Physics is Wilhelm Röntgen's award.
++ Los Angeles, California is Michael Jackson's death place.
++ Grammy Legend Award is Michael Jackson's award.
++ Serj Tankian team is System of a Down.
+
+Not Working:
++ George Clooney and Amal Alamuddin are married. (unknown rule)
++ Nobel Prize in Physics or Nobel Prize in Literature is Hendrik Lorentz's award. (logic)
++ Nobel Price in Physics is Hendrik Lorentz's award. (spell error)
++ This Is It is Michael Jackson's death place. (no type checking)
++ Danish Music Awards is Michael Jackson's award. (information is only found by link crawling)
+
+
 ## Build and Execute
 
 ### Build

@@ -1,6 +1,7 @@
 package de.upb.cracks;
 
 import de.upb.cracks.command.Predict;
+import de.upb.cracks.command.Test;
 import de.upb.cracks.command.Train;
 import picocli.CommandLine;
 
@@ -15,6 +16,7 @@ public class CracksFactCheck implements Runnable{
         CommandLine commandLine = cracksFactCheck.commandLine;
         commandLine.addSubcommand("train", new Train());
         commandLine.addSubcommand("predict", new Predict());
+        commandLine.addSubcommand("test", new Test());
 
 
         commandLine.parseWithHandler(new CommandLine.RunLast(), args);
