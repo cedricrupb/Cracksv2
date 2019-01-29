@@ -31,7 +31,11 @@ public class WikipediaEndpoint {
     public static String unAccent(String s) {
         String temp = Normalizer.normalize(s, Normalizer.Form.NFD);
         Pattern pattern = Pattern.compile("\\p{InCombiningDiacriticalMarks}+");
-        return pattern.matcher(temp).replaceAll("");
+        String un = pattern.matcher(temp).replaceAll("");
+
+        un = un.replace("ø", "o");
+
+        return un;
     }
 
     private String implQueryRAW(String title) throws Exception {

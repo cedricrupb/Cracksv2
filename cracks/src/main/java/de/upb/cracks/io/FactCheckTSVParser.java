@@ -37,7 +37,7 @@ public class FactCheckTSVParser {
 
 
         TsvParser parser = new TsvParser(settings);
-        parser.parse(stream, Charset.forName(encoding==null?"ISO-8859-1":encoding));
+        parser.parse(stream, Charset.forName(encoding==null?"latin1":encoding));
 
         return processor.entities;
     }
