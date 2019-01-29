@@ -50,6 +50,14 @@ Some insights:
 + Step 4 Testing: We again retrieve multiple candidates. Therefore we select the candidate for which NBC is most confident.
   In some cases, we retrieve no candidates than the statement will be evaluated as false.
 
+### Future Work
+Cracks makes some assumption that mainly applies for Wikipedia:
++ No spelling mistakes
++ Compact information: One or more statement per Sentence. Not one statement in multiple sentences.
++ No indirection: Search term co-occur with search intention.
+
+However, this assumption can be weaken by applying spell correction and correference resolution. 
+Performance could be improved by a more sophisticated classifier and more trainings data per Intention.
 
 ## Build and Execute
 
