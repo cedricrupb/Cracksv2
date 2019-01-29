@@ -140,11 +140,14 @@ public class NaiveFactChecker implements IFactChecker {
                 if(sentence == null)
                     continue;
 
+                List<String> features = FeatureExtractor.extract(
+                        sentence.window(15).getSentence());
+
                 bayes.learn(
-                        FeatureExtractor.extract(
-                                sentence.window(7).getSentence()),
+                        features,
                         trainEntity.getLabel() > 0
                 );
+
 
             }
 

@@ -47,4 +47,5 @@ public class FactQueryEndpoint {
         return out;
     }
 
+
 }

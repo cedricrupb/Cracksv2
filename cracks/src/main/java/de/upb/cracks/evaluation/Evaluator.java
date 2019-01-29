@@ -99,7 +99,70 @@ public class Evaluator {
         return (double)goodRank / (double)ranks;
     }
 
+    private double precision(List<Result> list){
 
+        int tp = 0;
+        int fp = 0;
+
+        for(int i = 0; i < list.size(); i++){
+            for(int j = i+1; j < list.size(); j++){
+                Result lI = list.get(i);
+                Result lJ = list.get(j);
+
+                if(lI.truth != lJ.truth) {
+                    if(lI.value > lJ.value){
+                        if(lI.truth > lJ.truth){
+                            tp ++;
+                        }else{
+                            fp ++;
+                        }
+                    }
+                }
+            }
+        }
+
+        return tp / (double)(tp + fp);
+
+    }
+
+    private double recall(List<Result> list){
+
+        int tp = 0;
+        int fn = 0;
+
+        for(int i = 0; i < list.size(); i++){
+            for(int j = i+1; j < list.size(); j++){
+                Result lI = list.get(i);
+                Result lJ = list.get(j);
+
+                if(lI.truth != lJ.truth) {
+                    if(lI.truth > lJ.truth){
+                        if(lI.value > lJ.value){
+                            tp ++;
+                        }else{
+                            fn ++;
+                        }
+                    }
+                }
+            }
+        }
+
+        return tp / (double)(tp + fn);
+
+    }
+
+    private void printMeanStd(List<Double> value, String measure){
+        double mean = 0.0;
+        for(double d: value)
+            mean += 1.0/value.size() * d;
+
+        double std = 0.0;
+        for(double d: value)
+            std += 1.0/value.size() * (d - mean) * (d - mean);
+
+        System.out.println("Mean "+measure+": "+mean+"(+- "+std+" )");
+
+    }
 
 
     public EvaluationResult evaluate(IFactChecker checker){
@@ -107,6 +170,8 @@ public class Evaluator {
         try {
 
             List<Double> aucs = new ArrayList<>();
+            List<Double> precision = new ArrayList<>();
+            List<Double> recall = new ArrayList<>();
 
             for(Fold fold : crossfold()){
 
@@ -120,10 +185,16 @@ public class Evaluator {
                 }
 
                 aucs.add(auc(results));
+                precision.add(precision(results));
+                recall.add(recall(results));
 
                 System.out.println("AUC: "+aucs.get(aucs.size() - 1));
 
             }
+
+            printMeanStd(aucs, "AUC");
+            printMeanStd(precision, "Precision");
+            printMeanStd(recall, "recall");
 
             return null;
         } catch (FileNotFoundException e) {

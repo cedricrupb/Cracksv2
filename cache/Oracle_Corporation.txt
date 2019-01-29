@@ -1,4 +1,5 @@
-== Abstract == Oracle Corporation is an American multinational computer technology corporation headquartered in Redwood Shores, California. The company specializes primarily in developing and marketing database software and technology, cloud engineered systems, and enterprise software products — particularly its own brands of database management systems. In 2018, Oracle was the third-largest software maker by revenue, after Microsoft and Alphabet.The company also develops and builds tools for database development and systems of middle-tier software, enterprise resource planning (ERP) software, customer relationship management (CRM) software, and supply chain management (SCM) software.
+== Abstract == 
+Oracle Corporation is an American multinational computer technology corporation headquartered in Redwood Shores, California. The company specializes primarily in developing and marketing database software and technology, cloud engineered systems, and enterprise software products — particularly its own brands of database management systems. In 2018, Oracle was the third-largest software maker by revenue, after Microsoft and Alphabet.The company also develops and builds tools for database development and systems of middle-tier software, enterprise resource planning (ERP) software, customer relationship management (CRM) software, and supply chain management (SCM) software.
 
 
 == History ==
@@ -92,7 +93,7 @@ Oracle Corporation works with "Oracle Certified Partners" to enhance its overall
 
 ==== Enterprise management ====
 
-Oracle Enterprise Manager (OEM) provides web-based monitoring and management tools for Oracle products (and for some third-party software), including database management, middleware management, application management, hardware and virtualization management and cloud management.The Primavera products of Oracle's Primavera Global Business Unit (PGBU) consist of project-management software.
+Oracle Enterprise Manager (OEM) provides web-based monitoring and management tools for Oracle products (and for some third-party software), including database management, middleware management, application management, hardware and virtualization management and cloud management.The Primavera products of Oracle's Construction & Engineering Global Business Unit (CEGBU) consist of project-management software.
 
 
 ==== Development software ====
@@ -330,7 +331,8 @@ Utilities
 
 == Sponsorships ==
 
-On October 20, 2006, the Golden State Warriors and the Oracle Corporation announced a 10-year agreement in which the Oakland Arena would become known as the Oracle Arena.Larry Ellison's sailing team competes as Oracle Team USA. The team has won the America's Cup twice, in 2010 (as BMW Oracle Racing) and in 2013.Sean Tucker's "Challenger II" stunt biplane performs frequently at air shows around the US.On January 9th, 2019, ESPN reported that the San Francisco Giants entered into a 20-year agreement to rename their stadium Oracle Park 
+On October 20, 2006, the Golden State Warriors and the Oracle Corporation announced a 10-year agreement in which the Oakland Arena would become known as the Oracle Arena.Larry Ellison's sailing team competes as Oracle Team USA. The team has won the America's Cup twice, in 2010 (as BMW Oracle Racing) and in 2013, despite being being penalized for cheating .
+Sean Tucker's "Challenger II" stunt biplane performs frequently at air shows around the US.On January 9th, 2019, ESPN reported that the San Francisco Giants entered into a 20-year agreement to rename their stadium Oracle Park 
 
 
 == See also ==

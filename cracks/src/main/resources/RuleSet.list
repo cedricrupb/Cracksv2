@@ -8,6 +8,7 @@ Stars [Person*] has been clerked [Movie].#movie_starring
 [Place] is [Person*] last place.#death_place
 [Place] is [Person*] death place.#death_place
 [Person*] team is [Team]#team
+[Person*] team is [Team].#team
 [Team] is [Person*] team.#team
 [Team] is [Person*] squad.#team
 [Person*] office is [Place].#office

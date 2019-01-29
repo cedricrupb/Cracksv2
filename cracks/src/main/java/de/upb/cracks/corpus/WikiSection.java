@@ -32,4 +32,28 @@ public class WikiSection {
         return sentences;
     }
 
+    public List<WikiSentence> searchNotFor(QueryEntity search){
+
+        List<WikiSentence> sentences = new ArrayList<>();
+
+        for(Sentence sentence : document.sentences()){
+            if(!SentenceSelector.getInstance().containsEntity(sentence, search)){
+                sentences.add(new WikiSentence(this, search, sentence));
+            }
+        }
+
+        return sentences;
+    }
+
+    public List<WikiSentence> sentences(){
+
+        List<WikiSentence> sentences = new ArrayList<>();
+
+        for(Sentence sentence : document.sentences()){
+            sentences.add(new WikiSentence(this, null, sentence));
+        }
+
+        return sentences;
+    }
+
 }

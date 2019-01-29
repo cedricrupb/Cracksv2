@@ -83,7 +83,7 @@ public class Exporter {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        new Exporter().export("result.ttl");
+        new Exporter().export("result_absolute.ttl");
     }
 
 

@@ -1,4 +1,5 @@
-== Abstract == Temenos AG (SWX: TEMN) is a company specialising in enterprise software for banks and financial services, with its headquarters in Geneva, Switzerland. Temenos was initially created in 1993, and has been listed on the Swiss stock exchange since 2001.
+== Abstract == 
+Temenos AG (SWX: TEMN) is a company specialising in enterprise software for banks and financial services, with its headquarters in Geneva, Switzerland. Temenos was initially created in 1993, and has been listed on the Swiss stock exchange since 2001.
 
 
 == Company profile ==

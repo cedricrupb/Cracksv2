@@ -6,12 +6,15 @@ import de.upb.cracks.corpus.FactQueryEndpoint;
 import de.upb.cracks.corpus.WikiSentence;
 import de.upb.cracks.corpus.preprocess.FeatureExtractor;
 import de.upb.cracks.io.FactCheckQueryEntity;
+import de.upb.cracks.io.FactCheckTrainEntity;
 import de.upb.cracks.rules.IFactQuery;
 
+import javax.swing.text.Document;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
@@ -23,6 +26,23 @@ public class NaiveFactCheckModel implements IFactCheckModel{
     public NaiveFactCheckModel(Map<String, NaiveBayes> naive) {
         this.naive = naive;
     }
+
+
+    private double predictMax(List<WikiSentence> list, NaiveBayes bayes){
+        double max = 0.0;
+
+        for(WikiSentence sentence : list){
+            double score = bayes.predict(
+                    FeatureExtractor.extract(sentence.window(15).getSentence())
+            );
+
+            max = Math.max(max, score);
+
+        }
+
+        return max;
+    }
+
 
     @Override
     public double eval(FactCheckQueryEntity queryEntity) {
@@ -36,19 +56,9 @@ public class NaiveFactCheckModel implements IFactCheckModel{
 
                 NaiveBayes bayes = naive.get(query.getIntention());
 
-                double max = 0.0;
+                List<WikiSentence> sentences = endpoint.getSentences(query);
 
-                for(WikiSentence sentence : endpoint.getSentences(query)){
-                    double score = bayes.predict(
-                            FeatureExtractor.extract(sentence.window(7).getSentence())
-                    );
-
-                    max = Math.max(max, score);
-
-                }
-
-
-                return max;
+                return predictMax(sentences, bayes);
             }
 
 
