@@ -23,7 +23,7 @@ public class CoverageFactChecker implements  IFactChecker {
         return new CoverageFactCheckModel();
     }
 
-    private class CoverageFactCheckModel implements IFactCheckModel {
+    private static class CoverageFactCheckModel implements IFactCheckModel {
         FactQueryEndpoint endpoint = new FactQueryEndpoint();
 
         @Override

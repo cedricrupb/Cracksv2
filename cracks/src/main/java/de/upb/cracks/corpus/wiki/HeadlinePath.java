@@ -48,13 +48,13 @@ public class HeadlinePath {
         if(path.isEmpty())
             return "EMPTY";
 
-        String txt = path.get(0);
+        StringBuilder txtBuilder = new StringBuilder(path.get(0));
 
         for(int i = 1; i < path.size(); i++){
-            txt += "."+path.get(i);
+            txtBuilder.append(".").append(path.get(i));
         }
 
-        return txt;
+        return txtBuilder.toString();
     }
 
     @Override

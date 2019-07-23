@@ -2,7 +2,6 @@ package de.upb.cracks.corpus;
 
 import com.google.gson.Gson;
 import de.upb.cracks.corpus.preprocess.SentenceSelector;
-import de.upb.cracks.model.MaxOccurrenceSelector;
 import de.upb.cracks.rules.QueryEntity;
 import edu.stanford.nlp.simple.Sentence;
 import edu.stanford.nlp.simple.Token;
@@ -53,11 +52,12 @@ public class WikiSentence {
 
             List<Token> tokenList = sentence.tokens();
 
-            String s = "";
+            StringBuilder sBuilder = new StringBuilder();
 
             for(int i = Math.max(0, p.first - k); i <= Math.min(tokenList.size()-1, p.second + k); i++ ){
-                s += tokenList.get(i).word() + " ";
+                sBuilder.append(tokenList.get(i).word()).append(" ");
             }
+            String s = sBuilder.toString();
             s = s.substring(0, s.length() - 1);
 
             return new WikiSentence(
@@ -74,6 +74,10 @@ public class WikiSentence {
 
     public boolean store(String path){
         Path p = Paths.get(path);
+        
+        if(p == null) {
+        	return false;
+        }
 
         Map<String, String> map = new HashMap<>();
         map.put("entity", search.getText());
@@ -82,8 +86,10 @@ public class WikiSentence {
 
         Gson gson = new Gson();
         try {
-            if(!Files.exists(p.getParent())){
-                Files.createDirectory(p.getParent());
+        	Path parent = p.getParent();
+        	
+            if(parent != null && !Files.exists(parent)){
+                Files.createDirectory(parent);
             }
 
             BufferedWriter writer = Files.newBufferedWriter(p);

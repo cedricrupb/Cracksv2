@@ -59,7 +59,7 @@ public class FactCheckTSVParser {
     }
 
 
-    private class TSVObjectProcessor extends ObjectRowProcessor{
+    private static class TSVObjectProcessor extends ObjectRowProcessor{
 
         List<FactCheckTrainEntity> entities = new ArrayList<>();
 
@@ -87,7 +87,7 @@ public class FactCheckTSVParser {
         }
     }
 
-    private class TSVTestObjectProcessor extends ObjectRowProcessor{
+    private static class TSVTestObjectProcessor extends ObjectRowProcessor{
 
         List<FactCheckQueryEntity> entities = new ArrayList<>();
 

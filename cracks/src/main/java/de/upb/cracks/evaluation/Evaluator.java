@@ -204,7 +204,7 @@ public class Evaluator {
         return null;
     }
 
-    private class Result {
+    private static class Result {
 
         private double value;
         private  double truth;

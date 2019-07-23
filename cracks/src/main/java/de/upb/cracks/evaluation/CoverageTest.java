@@ -3,7 +3,7 @@ package de.upb.cracks.evaluation;
 import de.upb.cracks.corpus.FactQueryEndpoint;
 import de.upb.cracks.corpus.WikiSentence;
 import de.upb.cracks.io.FactCheckTSVParser;
-import de.upb.cracks.io.FactCheckTrainEntity;;
+import de.upb.cracks.io.FactCheckTrainEntity;
 import de.upb.cracks.rules.IFactQuery;
 import de.upb.cracks.rules.QueryEntityMatcher;
 import de.upb.cracks.rules.RuleMatcher;
@@ -65,7 +65,7 @@ public class CoverageTest {
             System.out.println("Process: " + e.getQuery() + "(" + (i++) + "/" + trainData.size() + ")");
             Optional<IFactQuery> queryOpt = matcher().match(e.getQuery());
 
-            List<WikiSentence> sentences = new ArrayList<>();
+            List<WikiSentence> sentences;
 
             if (queryOpt.isPresent()) {
                 IFactQuery query = queryOpt.get();

@@ -49,6 +49,9 @@ public class RuleParser {
                         typeBuffer += c;
                     }
                     break;
+                    
+                default:
+                	break;
 
             }
 
@@ -74,6 +77,8 @@ public class RuleParser {
             if(r != null)
                 rules.add(r);
         }
+        
+        scanner.close();
 
         return new RuleMatcher(rules);
     }

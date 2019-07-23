@@ -19,7 +19,7 @@ public class DefaulFactChecker implements IFactChecker {
         return new DefaultFactCheckModel();
     }
 
-    private class DefaultFactCheckModel implements IFactCheckModel{
+    private static class DefaultFactCheckModel implements IFactCheckModel{
 
         Random random = new Random();
 

@@ -11,13 +11,16 @@ import java.util.List;
 public class WikiSection {
 
     private QueryEntity entity;
-    private Document document;
+	private Document document;
 
     WikiSection(QueryEntity entity, String section) {
         this.entity = entity;
         this.document = new Document(section);
     }
-
+    
+    public QueryEntity getEntity() {
+  		return entity;
+  	}
 
     public List<WikiSentence> searchFor(QueryEntity search){
 

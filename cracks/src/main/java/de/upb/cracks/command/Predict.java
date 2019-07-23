@@ -2,7 +2,6 @@ package de.upb.cracks.command;
 
 import de.upb.cracks.io.FactCheckQueryEntity;
 import de.upb.cracks.io.FactCheckTSVParser;
-import de.upb.cracks.io.FactCheckTrainEntity;
 import de.upb.cracks.model.IFactCheckModel;
 import de.upb.cracks.model.IFactChecker;
 import picocli.CommandLine;
@@ -12,7 +11,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.List;
 
@@ -50,6 +48,11 @@ public class Predict extends ModelDepended {
             System.out.println(String.format("Unknown test file: %d. EXIT.", testPath.toString()));
             return;
         }
+        
+        if(outputPath == null) {
+        	System.out.println("No output path is specified. EXIT.");
+        	return;
+        }
 
         try {
             System.out.println("Start prediction queries: "+testPath.toString());
@@ -70,8 +73,10 @@ public class Predict extends ModelDepended {
                 double score = model.eval(query);
 
                 try{
-                    if(!Files.exists(outputPath.getParent())){
-                        Files.createDirectory(outputPath.getParent());
+                	Path parent = outputPath.getParent();
+                	
+                    if(parent != null && !Files.exists(parent)){
+                        Files.createDirectory(parent);
                     }
 
                     if(!Files.exists(outputPath)){

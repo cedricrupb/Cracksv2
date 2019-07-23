@@ -6,10 +6,8 @@ import de.upb.cracks.corpus.FactQueryEndpoint;
 import de.upb.cracks.corpus.WikiSentence;
 import de.upb.cracks.corpus.preprocess.FeatureExtractor;
 import de.upb.cracks.io.FactCheckQueryEntity;
-import de.upb.cracks.io.FactCheckTrainEntity;
 import de.upb.cracks.rules.IFactQuery;
 
-import javax.swing.text.Document;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -71,9 +69,15 @@ public class NaiveFactCheckModel implements IFactCheckModel{
     public void store(Path p) throws IOException {
 
         p = p.toAbsolutePath();
+        
+        if(p == null) {
+        	return;
+        }
+        
+        Path parent = p.getParent();
 
-        if(!Files.exists(p.getParent())){
-            Files.createDirectory(p.getParent());
+        if(parent != null && !Files.exists(parent)){
+            Files.createDirectory(parent);
         }
 
         if(!Files.exists(p)){

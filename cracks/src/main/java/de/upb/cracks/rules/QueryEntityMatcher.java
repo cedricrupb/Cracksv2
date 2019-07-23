@@ -54,7 +54,7 @@ public class QueryEntityMatcher {
         return Optional.of(new FactQuery(match.getRule().getIntention(),  firstE, secondE));
     }
 
-    private class FactQuery implements IFactQuery{
+    private static class FactQuery implements IFactQuery{
 
         String intention;
         QueryEntity first;

@@ -86,6 +86,10 @@ public class WikipediaEndpoint {
         String text = this.implQueryRAW(title);
 
         Path p = path.getParent();
+        
+        if(p == null) {
+        	return null;
+        }
 
         if(!Files.exists(p)){
             Files.createDirectory(p);
@@ -162,15 +166,17 @@ public class WikipediaEndpoint {
         Pattern pattern = Pattern.compile("[a-z]\\.[A-Z]");
         Matcher matcher = pattern.matcher(text);
 
-        String nText = "";
+        StringBuilder nTextBuilder = new StringBuilder();
 
         int i = 0;
         while (matcher.find(i)){
-            nText = nText + text.substring(i, matcher.start()+1);
-            nText = nText +".\n";
-            nText = nText + text.substring(matcher.end()-1, matcher.end());
+        	nTextBuilder.append(text.substring(i, matcher.start()+1))
+        				.append(".\n")
+        				.append(text.substring(matcher.end()-1, matcher.end()));
             i = matcher.end();
         }
+        
+        String nText = nTextBuilder.toString();
 
         if(i < text.length())
             nText = nText + text.substring(i, text.length());
